@@ -164,7 +164,210 @@ $tamarack: (
 with open(os.path.join(OUT, 'tamarack.scss'), 'w') as fh:
     fh.write(scss)
 
-print('wrote palette.json, tamarack.css, tamarack.scss\n')
+# ---------- README.md ----------
+SYNTAX_ROLES = [
+    ('ember',      'Functions, methods'),
+    ('amber',      'Numbers'),
+    ('moss',       'Tags, attributes, markup structure'),
+    ('fern',       'Strings'),
+    ('juniper',    'Types, classes, interfaces'),
+    ('creek',      'Operators, builtins, escape sequences'),
+    ('slate',      'Properties, parameters, fields, JSON keys'),
+    ('clay',       'Keywords, storage'),
+    ('chokeberry', 'Constants, enum members, decorators, annotations'),
+    ('overlay1',   'Comments, doc blocks'),
+    ('subtext0',   'Punctuation, delimiters'),
+    ('text',       'Identifiers, everything unclaimed'),
+]
+
+UI_ROLES = [
+    ('ember',      'Primary buttons, links, cursor, focus ring, active tab'),
+    ('fern',       'Success, added lines in a diff, passing tests'),
+    ('amber',      'Warnings, modified lines, pending state'),
+    ('clay',       'Errors, deleted lines, destructive actions'),
+    ('creek',      'Selection fill, search highlight, info state'),
+    ('slate',      'Secondary links, metadata, breadcrumbs'),
+    ('chokeberry', 'Constants and enum members in UI chrome'),
+    ('base',       'Editor and page background'),
+    ('mantle',     'Sidebar, gutter, status bar'),
+    ('crust',      'Window chrome, deepest recess'),
+    ('surface0',   'Panels, inline code, hover fill'),
+    ('surface2',   'Borders, dividers, inactive tab'),
+    ('overlay0',   'Disabled text, placeholder'),
+]
+
+HUES = {'ember':27, 'amber':42, 'moss':64, 'fern':112, 'juniper':168,
+        'creek':187, 'slate':208, 'clay':10, 'chokeberry':318}
+
+cl, th = palette['clearing'], palette['thicket']
+
+lines = []
+w = lines.append
+
+w('# Tamarack')
+w('')
+w('A warm, nature-derived color palette in two hue-locked flavors.')
+w('')
+w('Named for the tamarack — the North American larch, a conifer that turns brilliant')
+w('gold-orange every autumn before dropping its needles. A green tree that becomes the')
+w('hero color, which is the palette in one word.')
+w('')
+w('No purple, no pink, no electric blue. Nine accents named for things that actually')
+w('have these colors, over a twelve-step role-named neutral ramp.')
+w('')
+w('## Flavors')
+w('')
+w('| Flavor | Mode | Base | Text | Character |')
+w('| --- | --- | --- | --- | --- |')
+w(f"| **Clearing** | light | `{cl['colors']['base']['hex']}` | `{cl['colors']['text']['hex']}` | Warm white, 40° |")
+w(f"| **Thicket** | dark | `{th['colors']['base']['hex']}` | `{th['colors']['text']['hex']}` | Forest black, 152° |")
+w('')
+w('A clearing is the bright open spot in a dark wood, so the pair explains itself.')
+w('')
+w('## Accents')
+w('')
+w('Both flavors sit at the same hue angle for a given token — only lightness and')
+w('saturation move. That hue lock is what makes them read as one palette in two states.')
+w('')
+w('| Token | Hue | Clearing | Δ on base | Thicket | Δ on base |')
+w('| --- | --- | --- | --- | --- | --- |')
+for a in ACCENTS:
+    w(f"| `{a}` | {HUES[a]}° | `{cl['colors'][a]['hex']}` | {cl['colors'][a]['contrastOnBase']}:1 "
+      f"| `{th['colors'][a]['hex']}` | {th['colors'][a]['contrastOnBase']}:1 |")
+w('')
+w('## Neutrals')
+w('')
+w('Role-named rather than color-named, deliberately: `surface0` means the same thing in')
+w('both flavors, whereas a color name would have to be the text in one and the background')
+w('in the other. The accents carry the identity; the neutrals carry the structure.')
+w('')
+w('| Token | Clearing | Thicket |')
+w('| --- | --- | --- |')
+for n in NEUTRALS:
+    w(f"| `{n}` | `{cl['colors'][n]['hex']}` | `{th['colors'][n]['hex']}` |")
+w('')
+w('## Roles')
+w('')
+w('A palette without an assignment is just a list of colors. These maps are written')
+w('against token names, so they hold for either flavor.')
+w('')
+w('### Syntax')
+w('')
+w('| Token | Applies to |')
+w('| --- | --- |')
+for t, r in SYNTAX_ROLES:
+    w(f'| `{t}` | {r} |')
+w('')
+w('### Interface')
+w('')
+w('| Token | Applies to |')
+w('| --- | --- |')
+for t, r in UI_ROLES:
+    w(f'| `{t}` | {r} |')
+w('')
+w('## ANSI 16')
+w('')
+w('All sixteen slots map to real palette tokens. `chokeberry` exists because ANSI')
+w('demands a magenta and the original eight accents had no honest answer for it.')
+w('')
+w('| Slot | Code | Clearing | Thicket | From |')
+w('| --- | --- | --- | --- | --- |')
+ANSI_FROM = {'black':'subtext1 (Clearing) / surface1 (Thicket)', 'red':'clay', 'green':'fern', 'yellow':'amber',
+             'blue':'slate', 'magenta':'chokeberry', 'cyan':'creek', 'white':'overlay0 (Clearing) / subtext1 (Thicket)'}
+for i, name in enumerate(ANSI):
+    w(f"| {name} | {i} | `{cl['ansiColors'][name]['normal']['hex']}` "
+      f"| `{th['ansiColors'][name]['normal']['hex']}` | {ANSI_FROM[name]} |")
+for i, name in enumerate(ANSI):
+    w(f"| bright {name} | {i+8} | `{cl['ansiColors'][name]['bright']['hex']}` "
+      f"| `{th['ansiColors'][name]['bright']['hex']}` | — |")
+w('')
+w('## Usage')
+w('')
+w('### CSS')
+w('')
+w('`tamarack.css` defines every color as a custom property, plus a paired `-rgb`')
+w('triplet for alpha composition. It resolves across all three theme states: the bare')
+w('`:root` carries Clearing, `prefers-color-scheme` swaps to Thicket unless light is')
+w('explicitly stamped, and an explicit `[data-theme]` stamp wins in either direction.')
+w('')
+w('```css')
+w('@import "tamarack.css";')
+w('')
+w('.button {')
+w('  background: var(--tm-ember);')
+w('  color: var(--tm-base);')
+w('}')
+w('')
+w('.selection {')
+w('  background: rgb(var(--tm-creek-rgb) / 0.25);')
+w('}')
+w('```')
+w('')
+w('Force a flavor with `<html data-theme="thicket">` or `data-theme="clearing"`.')
+w('')
+w('### Sass')
+w('')
+w('```scss')
+w('@use "tamarack" as *;')
+w('')
+w('.button {')
+w('  background: tm("thicket", "ember");')
+w('}')
+w('```')
+w('')
+w('### JSON')
+w('')
+w('`palette.json` is the source of truth. Every color carries `hex`, `rgb`, `hsl`,')
+w('`accent`, and `contrastOnBase`; each flavor also carries a full `ansiColors` block')
+w('with normal and bright variants and their codes.')
+w('')
+w('```json')
+w('{')
+w('  "thicket": {')
+w('    "colors": {')
+w('      "ember": {')
+w(f'        "hex": "{th["colors"]["ember"]["hex"]}",')
+w(f'        "rgb": {{ "r": {th["colors"]["ember"]["rgb"]["r"]}, "g": {th["colors"]["ember"]["rgb"]["g"]}, "b": {th["colors"]["ember"]["rgb"]["b"]} }},')
+w('        "accent": true,')
+w(f'        "contrastOnBase": {th["colors"]["ember"]["contrastOnBase"]}')
+w('      }')
+w('    }')
+w('  }')
+w('}')
+w('```')
+w('')
+w('## Regenerating')
+w('')
+w('`palette.json`, `tamarack.css`, `tamarack.scss` and this README are all generated.')
+w('Edit the flavor definitions at the top of `gen.py`, then:')
+w('')
+w('```bash')
+w('python3 gen.py')
+w('```')
+w('')
+w('No dependencies beyond the Python standard library.')
+w('')
+w('## Notes on the design')
+w('')
+w('- **Contrast is measured, not assumed.** Every accent carries its ratio against its')
+w('  own flavor\'s `base`. Clearing spans roughly 4.5–5.6:1 and Thicket 5.5–8.6:1 — the')
+w('  light flavor is inherently flatter, which is a property of dark accents on a light')
+w('  ground rather than an oversight.')
+w('- **JSON keys map to `slate`, not `moss`.** `moss` and `fern` sit 48° apart, which is')
+w('  fine in prose and not fine in JSON, where keys and string values alternate on every')
+w('  line. Fixed by role assignment rather than by moving hues.')
+w('- **`amber` does numbers and warnings only.** Constants moved to `chokeberry` when it')
+w('  joined, so no token carries three unrelated meanings.')
+w('')
+w('## License')
+w('')
+w('MIT. See [LICENSE](LICENSE).')
+w('')
+
+with open(os.path.join(OUT, 'README.md'), 'w') as fh:
+    fh.write('\n'.join(lines))
+
+print('wrote palette.json, tamarack.css, tamarack.scss, README.md\n')
 for key, f in palette.items():
     print(f"{f['name']}  (base {f['colors']['base']['hex']})")
     for a in ACCENTS:
