@@ -1,0 +1,464 @@
+{
+    "name": "Tamarack Clearing",
+    "author": "Tamarack",
+    "variables": {
+        "ember": "#A35514",
+        "amber": "#8F6A14",
+        "moss": "#6E7524",
+        "fern": "#4E7C3A",
+        "juniper": "#1F8168",
+        "creek": "#2A7B87",
+        "slate": "#4A6E8C",
+        "clay": "#A8422F",
+        "chokeberry": "#9D4382",
+        "text": "#2E271E",
+        "subtext1": "#554C3E",
+        "subtext0": "#6E6454",
+        "overlay2": "#877C69",
+        "overlay1": "#A0947F",
+        "overlay0": "#B8AC95",
+        "surface2": "#CFC4AE",
+        "surface1": "#E0D7C6",
+        "surface0": "#EDE7DB",
+        "base": "#FAF7F1",
+        "mantle": "#F3EFE6",
+        "crust": "#EBE5D9"
+    },
+    "globals": {
+        "background": "var(base)",
+        "foreground": "var(text)",
+        "caret": "var(ember)",
+        "block_caret": "var(ember)",
+        "invisibles": "color(var(overlay0) alpha(0.4))",
+        "line_highlight": "color(var(surface2) alpha(0.4))",
+        "selection": "color(var(creek) alpha(0.25))",
+        "selection_border": "color(var(creek) alpha(0.6))",
+        "selection_border_width": "1",
+        "inactive_selection": "color(var(creek) alpha(0.12))",
+        "inactive_selection_foreground": "var(text)",
+        "misspelling": "var(clay)",
+        "gutter": "var(mantle)",
+        "gutter_foreground": "var(overlay0)",
+        "gutter_foreground_highlight": "var(ember)",
+        "find_highlight": "var(creek)",
+        "find_highlight_foreground": "var(base)",
+        "highlight": "color(var(creek) alpha(0.5))",
+        "guide": "color(var(surface2) alpha(0.6))",
+        "active_guide": "var(ember)",
+        "stack_guide": "color(var(surface2) alpha(0.9))",
+        "shadow": "var(crust)",
+        "shadow_width": "8",
+        "accent": "var(ember)",
+        "fold_marker": "var(amber)",
+        "brackets_options": "underline",
+        "brackets_foreground": "var(overlay2)",
+        "bracket_contents_options": "underline",
+        "bracket_contents_foreground": "var(overlay2)",
+        "tags_options": "stippled_underline",
+        "tags_foreground": "var(moss)"
+    },
+    "rules": [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(overlay1)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Documentation comment",
+            "scope": "comment.block.documentation",
+            "foreground": "var(overlay1)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Shebang",
+            "scope": "comment.line.shebang",
+            "foreground": "var(overlay1)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation",
+            "foreground": "var(subtext0)"
+        },
+        {
+            "name": "Punctuation separator",
+            "scope": "punctuation.separator",
+            "foreground": "var(subtext0)"
+        },
+        {
+            "name": "Punctuation terminator",
+            "scope": "punctuation.terminator",
+            "foreground": "var(subtext0)"
+        },
+        {
+            "name": "Punctuation section",
+            "scope": "punctuation.section",
+            "foreground": "var(subtext0)"
+        },
+        {
+            "name": "Punctuation definition of a string",
+            "scope": "punctuation.definition.string",
+            "foreground": "var(fern)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(fern)"
+        },
+        {
+            "name": "String regexp",
+            "scope": "string.regexp",
+            "foreground": "var(creek)"
+        },
+        {
+            "name": "Character escape",
+            "scope": "constant.character.escape",
+            "foreground": "var(creek)"
+        },
+        {
+            "name": "Regexp character class",
+            "scope": "constant.other.character-class.regexp",
+            "foreground": "var(creek)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(amber)"
+        },
+        {
+            "name": "Numeric unit suffix",
+            "scope": "constant.numeric.suffix, keyword.other.unit",
+            "foreground": "var(creek)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(chokeberry)"
+        },
+        {
+            "name": "Other constant",
+            "scope": "constant.other",
+            "foreground": "var(chokeberry)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "variable.other.constant, entity.name.constant",
+            "foreground": "var(chokeberry)"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(chokeberry)"
+        },
+        {
+            "name": "Enum member",
+            "scope": "entity.name.enum-member, meta.enum entity.name.constant",
+            "foreground": "var(chokeberry)"
+        },
+        {
+            "name": "Annotation",
+            "scope": "meta.annotation, variable.annotation, entity.name.decorator",
+            "foreground": "var(chokeberry)"
+        },
+        {
+            "name": "Annotation punctuation",
+            "scope": "punctuation.definition.annotation",
+            "foreground": "var(chokeberry)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(clay)"
+        },
+        {
+            "name": "Word operator",
+            "scope": "keyword.operator.word",
+            "foreground": "var(clay)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(clay)"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(clay)"
+        },
+        {
+            "name": "Storage modifier",
+            "scope": "storage.modifier",
+            "foreground": "var(clay)"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "var(creek)"
+        },
+        {
+            "name": "Accessor",
+            "scope": "punctuation.accessor",
+            "foreground": "var(creek)"
+        },
+        {
+            "name": "Built-in function",
+            "scope": "support.function.builtin",
+            "foreground": "var(creek)"
+        },
+        {
+            "name": "Built-in variable",
+            "scope": "variable.language",
+            "foreground": "var(creek)"
+        },
+        {
+            "name": "Built-in type",
+            "scope": "support.type.primitive, storage.type.primitive",
+            "foreground": "var(creek)"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "var(ember)"
+        },
+        {
+            "name": "Function call",
+            "scope": "variable.function",
+            "foreground": "var(ember)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(ember)"
+        },
+        {
+            "name": "Macro",
+            "scope": "support.macro, entity.name.function.preprocessor",
+            "foreground": "var(ember)"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class, entity.name.struct, entity.name.union, entity.name.impl",
+            "foreground": "var(juniper)"
+        },
+        {
+            "name": "Type name",
+            "scope": "entity.name.type, entity.name.trait, entity.name.enum, entity.name.interface",
+            "foreground": "var(juniper)"
+        },
+        {
+            "name": "Namespace",
+            "scope": "entity.name.namespace",
+            "foreground": "var(juniper)"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(juniper)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.class, support.type",
+            "foreground": "var(juniper)"
+        },
+        {
+            "name": "Generic parameter brackets",
+            "scope": "punctuation.definition.generic",
+            "foreground": "var(juniper)"
+        },
+        {
+            "name": "Parameter",
+            "scope": "variable.parameter",
+            "foreground": "var(slate)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Member/field",
+            "scope": "variable.other.member",
+            "foreground": "var(slate)"
+        },
+        {
+            "name": "Label",
+            "scope": "entity.name.label",
+            "foreground": "var(slate)"
+        },
+        {
+            "name": "Mapping key",
+            "scope": "meta.mapping.key string, meta.mapping.key string.unquoted",
+            "foreground": "var(slate)"
+        },
+        {
+            "name": "Mapping key quotes",
+            "scope": "meta.mapping.key punctuation.definition.string",
+            "foreground": "var(subtext0)"
+        },
+        {
+            "name": "YAML anchor/alias",
+            "scope": "entity.name.other.anchor, variable.other.alias",
+            "foreground": "var(slate)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(moss)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(moss)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Tag punctuation",
+            "scope": "punctuation.definition.tag",
+            "foreground": "var(subtext0)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(text)"
+        },
+        {
+            "name": "Other variable",
+            "scope": "variable.other",
+            "foreground": "var(text)"
+        },
+        {
+            "name": "Generic name",
+            "scope": "meta.generic-name",
+            "foreground": "var(text)"
+        },
+        {
+            "name": "CSS property name",
+            "scope": "support.type.property-name, meta.property-name entity.other.custom-property",
+            "foreground": "var(slate)"
+        },
+        {
+            "name": "CSS property value",
+            "scope": "support.constant.property-value",
+            "foreground": "var(text)"
+        },
+        {
+            "name": "CSS selector tag",
+            "scope": "entity.name.tag.css",
+            "foreground": "var(moss)"
+        },
+        {
+            "name": "CSS variable use",
+            "scope": "variable.other.custom-property",
+            "foreground": "var(chokeberry)"
+        },
+        {
+            "name": "Sass/SCSS variable",
+            "scope": "variable.other.sass, variable.other.scss",
+            "foreground": "var(slate)"
+        },
+        {
+            "name": "SCSS mixin",
+            "scope": "entity.name.mixin.scss, variable.other.mixin.scss",
+            "foreground": "var(ember)"
+        },
+        {
+            "name": "Markup heading",
+            "scope": "markup.heading",
+            "foreground": "var(ember)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markup heading punctuation",
+            "scope": "markup.heading punctuation.definition.heading",
+            "foreground": "var(subtext0)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markup bold",
+            "scope": "markup.bold",
+            "foreground": "var(moss)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markup italic",
+            "scope": "markup.italic",
+            "foreground": "var(moss)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markup link",
+            "scope": "markup.underline.link",
+            "foreground": "var(slate)",
+            "font_style": "underline"
+        },
+        {
+            "name": "Markup link description",
+            "scope": "meta.link.inline.description, meta.image.inline.description",
+            "foreground": "var(chokeberry)"
+        },
+        {
+            "name": "Markup raw",
+            "scope": "markup.raw",
+            "foreground": "var(fern)"
+        },
+        {
+            "name": "Markup inline code",
+            "scope": "markup.raw.inline",
+            "foreground": "var(fern)"
+        },
+        {
+            "name": "Markup code fence info string",
+            "scope": "meta.code-fence.definition, constant.other.language-name",
+            "foreground": "var(overlay1)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markup quote",
+            "scope": "markup.quote",
+            "foreground": "var(overlay1)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markup list punctuation",
+            "scope": "markup.list punctuation.definition.list_item",
+            "foreground": "var(subtext0)"
+        },
+        {
+            "name": "Diff header",
+            "scope": "meta.diff, meta.diff.header, meta.diff.range",
+            "foreground": "var(slate)"
+        },
+        {
+            "name": "Diff inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(fern)"
+        },
+        {
+            "name": "Diff deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(clay)"
+        },
+        {
+            "name": "Diff changed",
+            "scope": "markup.changed",
+            "foreground": "var(amber)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(base)",
+            "background": "var(clay)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(base)",
+            "background": "var(amber)"
+        },
+        {
+            "name": "Error message",
+            "scope": "message.error",
+            "foreground": "var(clay)"
+        }
+    ],
+    "popup_css": "html {\n    background-color: #EDE7DB;\n    color: #2E271E;\n}\na {\n    color: #A35514;\n}\ncode, .code {\n    background-color: #E0D7C6;\n    color: #2E271E;\n}\n.error {\n    color: #A8422F;\n}\n.warning {\n    color: #8F6A14;\n}\n.success {\n    color: #4E7C3A;\n}\n"
+}
