@@ -1,19 +1,47 @@
-// Tamarack — Clearing & Thicket
-// Generated from palette.json. Do not edit by hand.
+// Tamarack — Spring, Summer, Fall, Winter
+// Generated from gen.py. Do not edit by hand.
 
 $tamarack-accents: ("ember", "amber", "moss", "fern", "juniper", "creek", "slate", "clay", "chokeberry");
 $tamarack-neutrals: ("text", "subtext1", "subtext0", "overlay2", "overlay1", "overlay0", "surface2", "surface1", "surface0", "base", "mantle", "crust");
+$tamarack-seasons: ("spring", "summer", "fall", "winter");
+$tamarack-light: ("spring", "summer");
+$tamarack-dark: ("fall", "winter");
 
-$clearing: (
-  "ember": #A35514,
-  "amber": #8F6A14,
-  "moss": #6E7524,
-  "fern": #4E7C3A,
-  "juniper": #1F8168,
-  "creek": #2A7B87,
-  "slate": #4A6E8C,
-  "clay": #A8422F,
-  "chokeberry": #9D4382,
+$spring: (
+  "ember": #9E5920,
+  "amber": #8C6B1F,
+  "moss": #6E761D,
+  "fern": #4A7D33,
+  "juniper": #168267,
+  "creek": #337B86,
+  "slate": #4F6E87,
+  "clay": #A14839,
+  "chokeberry": #964A7F,
+  "text": #252C20,
+  "subtext1": #485241,
+  "subtext0": #5F6A58,
+  "overlay2": #76836D,
+  "overlay1": #8E9B84,
+  "overlay0": #A4B39A,
+  "surface2": #BDCAB3,
+  "surface1": #D1DCCA,
+  "surface0": #E3EADE,
+  "base": #F5F9F2,
+  "mantle": #ECF1E8,
+  "crust": #E1E8DC,
+  "hero": #4A7D33
+);
+
+$summer: (
+  "ember": #A95109,
+  "amber": #91690A,
+  "moss": #6E751C,
+  "fern": #527B41,
+  "juniper": #28806A,
+  "creek": #337A84,
+  "slate": #4F6E87,
+  "clay": #A04839,
+  "chokeberry": #95497F,
   "text": #2E271E,
   "subtext1": #554C3E,
   "subtext0": #6E6454,
@@ -25,19 +53,45 @@ $clearing: (
   "surface0": #EDE7DB,
   "base": #FAF7F1,
   "mantle": #F3EFE6,
-  "crust": #EBE5D9
+  "crust": #EBE5D9,
+  "hero": #A95109
 );
 
-$thicket: (
-  "ember": #E9954D,
-  "amber": #DCAE57,
-  "moss": #AFB766,
-  "fern": #8FBE71,
-  "juniper": #5AB99B,
-  "creek": #66B2BA,
-  "slate": #88A6C2,
-  "clay": #D67464,
-  "chokeberry": #B988AA,
+$fall: (
+  "ember": #F48D38,
+  "amber": #E2AB2D,
+  "moss": #AFB573,
+  "fern": #90BB7D,
+  "juniper": #68B5A2,
+  "creek": #73AEB7,
+  "slate": #89A5BC,
+  "clay": #DE6D59,
+  "chokeberry": #B389A7,
+  "text": #E6E0DB,
+  "subtext1": #C5BEB7,
+  "subtext0": #A79E97,
+  "overlay2": #898079,
+  "overlay1": #6F665E,
+  "overlay0": #574E46,
+  "surface2": #403730,
+  "surface1": #332C25,
+  "surface0": #27211B,
+  "base": #1B1612,
+  "mantle": #14110E,
+  "crust": #0F0C0A,
+  "hero": #F48D38
+);
+
+$winter: (
+  "ember": #DF9960,
+  "amber": #D3B163,
+  "moss": #AFB853,
+  "fern": #81C165,
+  "juniper": #44BB9D,
+  "creek": #5EB2BF,
+  "slate": #8BA6BD,
+  "clay": #CD796A,
+  "chokeberry": #B48AA8,
   "text": #DFE5DC,
   "subtext1": #B8C4BB,
   "subtext0": #98A69D,
@@ -49,14 +103,17 @@ $thicket: (
   "surface0": #1C2620,
   "base": #131A16,
   "mantle": #0E1411,
-  "crust": #0A0F0C
+  "crust": #0A0F0C,
+  "hero": #44BB9D
 );
 
 $tamarack: (
-  "clearing": $clearing,
-  "thicket": $thicket
+  "spring": $spring,
+  "summer": $summer,
+  "fall": $fall,
+  "winter": $winter
 );
 
-@function tm($flavor, $color) {
-  @return map-get(map-get($tamarack, $flavor), $color);
+@function tm($season, $color) {
+  @return map-get(map-get($tamarack, $season), $color);
 }

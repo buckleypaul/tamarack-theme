@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="968" height="664" viewBox="0 0 968 664" role="img" aria-label="Tamarack Spring palette swatches">
+  <title>Tamarack Spring palette swatches</title>
+  <rect width="968" height="664" fill="#F5F9F2"/>
+  <text x="36" y="62" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="26" fill="#252C20" font-weight="600">Tamarack Spring</text>
+  <text x="36" y="86" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#5F6A58">light flavor · base #f5f9f2 · contrast measured on base</text>
+  <text x="36" y="124" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="11" fill="#5F6A58" font-weight="600" fill-opacity="0.85">ACCENTS</text>
+  <rect x="36" y="138" width="288" height="84" rx="8" fill="#9E5920" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="50" y="168" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">ember</text>
+  <text x="50" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#9e5920</text>
+  <text x="310" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" text-anchor="end" fill-opacity="0.75">5.05:1</text>
+  <rect x="340" y="138" width="288" height="84" rx="8" fill="#8C6B1F" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="354" y="168" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">amber</text>
+  <text x="354" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#8c6b1f</text>
+  <text x="614" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" text-anchor="end" fill-opacity="0.75">4.65:1</text>
+  <rect x="644" y="138" width="288" height="84" rx="8" fill="#6E761D" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="658" y="168" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">moss</text>
+  <text x="658" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#6e761d</text>
+  <text x="918" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" text-anchor="end" fill-opacity="0.75">4.61:1</text>
+  <rect x="36" y="238" width="288" height="84" rx="8" fill="#4A7D33" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="50" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">fern</text>
+  <text x="50" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#4a7d33</text>
+  <text x="310" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" text-anchor="end" fill-opacity="0.75">4.61:1</text>
+  <rect x="340" y="238" width="288" height="84" rx="8" fill="#168267" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="354" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">juniper</text>
+  <text x="354" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#168267</text>
+  <text x="614" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" text-anchor="end" fill-opacity="0.75">4.46:1</text>
+  <rect x="644" y="238" width="288" height="84" rx="8" fill="#337B86" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="658" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">creek</text>
+  <text x="658" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#337b86</text>
+  <text x="918" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" text-anchor="end" fill-opacity="0.75">4.57:1</text>
+  <rect x="36" y="338" width="288" height="84" rx="8" fill="#4F6E87" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="50" y="368" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">slate</text>
+  <text x="50" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#4f6e87</text>
+  <text x="310" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" text-anchor="end" fill-opacity="0.75">5.04:1</text>
+  <rect x="340" y="338" width="288" height="84" rx="8" fill="#A14839" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="354" y="368" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">clay</text>
+  <text x="354" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#a14839</text>
+  <text x="614" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" text-anchor="end" fill-opacity="0.75">5.63:1</text>
+  <rect x="644" y="338" width="288" height="84" rx="8" fill="#964A7F" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="658" y="368" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">chokeberry</text>
+  <text x="658" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#964a7f</text>
+  <text x="918" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" text-anchor="end" fill-opacity="0.75">5.5:1</text>
+  <text x="36" y="460" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="11" fill="#5F6A58" font-weight="600" fill-opacity="0.85">NEUTRALS</text>
+  <rect x="36" y="474" width="141" height="72" rx="8" fill="#252C20" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="50" y="502" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">text</text>
+  <text x="50" y="522" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#252c20</text>
+  <rect x="187" y="474" width="141" height="72" rx="8" fill="#485241" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="201" y="502" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">subtext1</text>
+  <text x="201" y="522" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#485241</text>
+  <rect x="338" y="474" width="141" height="72" rx="8" fill="#5F6A58" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="352" y="502" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">subtext0</text>
+  <text x="352" y="522" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#5f6a58</text>
+  <rect x="489" y="474" width="141" height="72" rx="8" fill="#76836D" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="503" y="502" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#F5F9F2" font-weight="600">overlay2</text>
+  <text x="503" y="522" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#F5F9F2" fill-opacity="0.75">#76836d</text>
+  <rect x="640" y="474" width="141" height="72" rx="8" fill="#8E9B84" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="654" y="502" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#252C20" font-weight="600">overlay1</text>
+  <text x="654" y="522" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#252C20" fill-opacity="0.75">#8e9b84</text>
+  <rect x="791" y="474" width="141" height="72" rx="8" fill="#A4B39A" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="805" y="502" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#252C20" font-weight="600">overlay0</text>
+  <text x="805" y="522" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#252C20" fill-opacity="0.75">#a4b39a</text>
+  <rect x="36" y="556" width="141" height="72" rx="8" fill="#BDCAB3" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="50" y="584" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#252C20" font-weight="600">surface2</text>
+  <text x="50" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#252C20" fill-opacity="0.75">#bdcab3</text>
+  <rect x="187" y="556" width="141" height="72" rx="8" fill="#D1DCCA" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="201" y="584" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#252C20" font-weight="600">surface1</text>
+  <text x="201" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#252C20" fill-opacity="0.75">#d1dcca</text>
+  <rect x="338" y="556" width="141" height="72" rx="8" fill="#E3EADE" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="352" y="584" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#252C20" font-weight="600">surface0</text>
+  <text x="352" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#252C20" fill-opacity="0.75">#e3eade</text>
+  <rect x="489" y="556" width="141" height="72" rx="8" fill="#F5F9F2" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="503" y="584" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#252C20" font-weight="600">base</text>
+  <text x="503" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#252C20" fill-opacity="0.75">#f5f9f2</text>
+  <rect x="640" y="556" width="141" height="72" rx="8" fill="#ECF1E8" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="654" y="584" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#252C20" font-weight="600">mantle</text>
+  <text x="654" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#252C20" fill-opacity="0.75">#ecf1e8</text>
+  <rect x="791" y="556" width="141" height="72" rx="8" fill="#E1E8DC" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="805" y="584" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#252C20" font-weight="600">crust</text>
+  <text x="805" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#252C20" fill-opacity="0.75">#e1e8dc</text>
+</svg>

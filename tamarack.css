@@ -1,80 +1,85 @@
-/* Tamarack — Clearing & Thicket
- * Generated from palette.json. Do not edit by hand.
+/* Tamarack — Spring, Summer, Fall, Winter
+ * Generated from gen.py. Do not edit by hand.
  *
  * Accents:  ember, amber, moss, fern, juniper, creek, slate, clay, chokeberry
  * Neutrals: text, subtext1, subtext0, overlay2, overlay1, overlay0, surface2, surface1, surface0, base, mantle, crust
  *
- * Resolves in three states: the bare :root carries Clearing (light),
- * prefers-color-scheme swaps to Thicket unless light is explicitly stamped,
- * and an explicit [data-theme] stamp wins in either direction.
+ * Resolves in three states: the bare :root carries Spring,
+ * prefers-color-scheme swaps to Winter unless a light season is
+ * explicitly stamped, and an explicit [data-theme] stamp wins in either direction.
+ *
+ * --tm-hero aliases whichever accent the season leads with, so chrome written
+ * against it re-points on its own when the season changes.
  */
 
 :root {
-  --tm-ember: #A35514;
-  --tm-ember-rgb: 163 85 20;
-  --tm-amber: #8F6A14;
-  --tm-amber-rgb: 143 106 20;
-  --tm-moss: #6E7524;
-  --tm-moss-rgb: 110 117 36;
-  --tm-fern: #4E7C3A;
-  --tm-fern-rgb: 78 124 58;
-  --tm-juniper: #1F8168;
-  --tm-juniper-rgb: 31 129 104;
-  --tm-creek: #2A7B87;
-  --tm-creek-rgb: 42 123 135;
-  --tm-slate: #4A6E8C;
-  --tm-slate-rgb: 74 110 140;
-  --tm-clay: #A8422F;
-  --tm-clay-rgb: 168 66 47;
-  --tm-chokeberry: #9D4382;
-  --tm-chokeberry-rgb: 157 67 130;
-  --tm-text: #2E271E;
-  --tm-text-rgb: 46 39 30;
-  --tm-subtext1: #554C3E;
-  --tm-subtext1-rgb: 85 76 62;
-  --tm-subtext0: #6E6454;
-  --tm-subtext0-rgb: 110 100 84;
-  --tm-overlay2: #877C69;
-  --tm-overlay2-rgb: 135 124 105;
-  --tm-overlay1: #A0947F;
-  --tm-overlay1-rgb: 160 148 127;
-  --tm-overlay0: #B8AC95;
-  --tm-overlay0-rgb: 184 172 149;
-  --tm-surface2: #CFC4AE;
-  --tm-surface2-rgb: 207 196 174;
-  --tm-surface1: #E0D7C6;
-  --tm-surface1-rgb: 224 215 198;
-  --tm-surface0: #EDE7DB;
-  --tm-surface0-rgb: 237 231 219;
-  --tm-base: #FAF7F1;
-  --tm-base-rgb: 250 247 241;
-  --tm-mantle: #F3EFE6;
-  --tm-mantle-rgb: 243 239 230;
-  --tm-crust: #EBE5D9;
-  --tm-crust-rgb: 235 229 217;
+  --tm-ember: #9E5920;
+  --tm-ember-rgb: 158 89 32;
+  --tm-amber: #8C6B1F;
+  --tm-amber-rgb: 140 107 31;
+  --tm-moss: #6E761D;
+  --tm-moss-rgb: 110 118 29;
+  --tm-fern: #4A7D33;
+  --tm-fern-rgb: 74 125 51;
+  --tm-juniper: #168267;
+  --tm-juniper-rgb: 22 130 103;
+  --tm-creek: #337B86;
+  --tm-creek-rgb: 51 123 134;
+  --tm-slate: #4F6E87;
+  --tm-slate-rgb: 79 110 135;
+  --tm-clay: #A14839;
+  --tm-clay-rgb: 161 72 57;
+  --tm-chokeberry: #964A7F;
+  --tm-chokeberry-rgb: 150 74 127;
+  --tm-text: #252C20;
+  --tm-text-rgb: 37 44 32;
+  --tm-subtext1: #485241;
+  --tm-subtext1-rgb: 72 82 65;
+  --tm-subtext0: #5F6A58;
+  --tm-subtext0-rgb: 95 106 88;
+  --tm-overlay2: #76836D;
+  --tm-overlay2-rgb: 118 131 109;
+  --tm-overlay1: #8E9B84;
+  --tm-overlay1-rgb: 142 155 132;
+  --tm-overlay0: #A4B39A;
+  --tm-overlay0-rgb: 164 179 154;
+  --tm-surface2: #BDCAB3;
+  --tm-surface2-rgb: 189 202 179;
+  --tm-surface1: #D1DCCA;
+  --tm-surface1-rgb: 209 220 202;
+  --tm-surface0: #E3EADE;
+  --tm-surface0-rgb: 227 234 222;
+  --tm-base: #F5F9F2;
+  --tm-base-rgb: 245 249 242;
+  --tm-mantle: #ECF1E8;
+  --tm-mantle-rgb: 236 241 232;
+  --tm-crust: #E1E8DC;
+  --tm-crust-rgb: 225 232 220;
+  --tm-hero: var(--tm-fern);
+  --tm-hero-rgb: var(--tm-fern-rgb);
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="clearing"]):not([data-theme="light"]) {
-    --tm-ember: #E9954D;
-    --tm-ember-rgb: 233 149 77;
-    --tm-amber: #DCAE57;
-    --tm-amber-rgb: 220 174 87;
-    --tm-moss: #AFB766;
-    --tm-moss-rgb: 175 183 102;
-    --tm-fern: #8FBE71;
-    --tm-fern-rgb: 143 190 113;
-    --tm-juniper: #5AB99B;
-    --tm-juniper-rgb: 90 185 155;
-    --tm-creek: #66B2BA;
-    --tm-creek-rgb: 102 178 186;
-    --tm-slate: #88A6C2;
-    --tm-slate-rgb: 136 166 194;
-    --tm-clay: #D67464;
-    --tm-clay-rgb: 214 116 100;
-    --tm-chokeberry: #B988AA;
-    --tm-chokeberry-rgb: 185 136 170;
+  :root:not([data-theme="spring"]):not([data-theme="summer"]):not([data-theme="light"]) {
+    --tm-ember: #DF9960;
+    --tm-ember-rgb: 223 153 96;
+    --tm-amber: #D3B163;
+    --tm-amber-rgb: 211 177 99;
+    --tm-moss: #AFB853;
+    --tm-moss-rgb: 175 184 83;
+    --tm-fern: #81C165;
+    --tm-fern-rgb: 129 193 101;
+    --tm-juniper: #44BB9D;
+    --tm-juniper-rgb: 68 187 157;
+    --tm-creek: #5EB2BF;
+    --tm-creek-rgb: 94 178 191;
+    --tm-slate: #8BA6BD;
+    --tm-slate-rgb: 139 166 189;
+    --tm-clay: #CD796A;
+    --tm-clay-rgb: 205 121 106;
+    --tm-chokeberry: #B48AA8;
+    --tm-chokeberry-rgb: 180 138 168;
     --tm-text: #DFE5DC;
     --tm-text-rgb: 223 229 220;
     --tm-subtext1: #B8C4BB;
@@ -99,30 +104,177 @@
     --tm-mantle-rgb: 14 20 17;
     --tm-crust: #0A0F0C;
     --tm-crust-rgb: 10 15 12;
+    --tm-hero: var(--tm-juniper);
+    --tm-hero-rgb: var(--tm-juniper-rgb);
     color-scheme: dark;
   }
 }
 
-:root[data-theme="thicket"],
+:root[data-theme="spring"],
+:root[data-theme="light"] {
+  --tm-ember: #9E5920;
+  --tm-ember-rgb: 158 89 32;
+  --tm-amber: #8C6B1F;
+  --tm-amber-rgb: 140 107 31;
+  --tm-moss: #6E761D;
+  --tm-moss-rgb: 110 118 29;
+  --tm-fern: #4A7D33;
+  --tm-fern-rgb: 74 125 51;
+  --tm-juniper: #168267;
+  --tm-juniper-rgb: 22 130 103;
+  --tm-creek: #337B86;
+  --tm-creek-rgb: 51 123 134;
+  --tm-slate: #4F6E87;
+  --tm-slate-rgb: 79 110 135;
+  --tm-clay: #A14839;
+  --tm-clay-rgb: 161 72 57;
+  --tm-chokeberry: #964A7F;
+  --tm-chokeberry-rgb: 150 74 127;
+  --tm-text: #252C20;
+  --tm-text-rgb: 37 44 32;
+  --tm-subtext1: #485241;
+  --tm-subtext1-rgb: 72 82 65;
+  --tm-subtext0: #5F6A58;
+  --tm-subtext0-rgb: 95 106 88;
+  --tm-overlay2: #76836D;
+  --tm-overlay2-rgb: 118 131 109;
+  --tm-overlay1: #8E9B84;
+  --tm-overlay1-rgb: 142 155 132;
+  --tm-overlay0: #A4B39A;
+  --tm-overlay0-rgb: 164 179 154;
+  --tm-surface2: #BDCAB3;
+  --tm-surface2-rgb: 189 202 179;
+  --tm-surface1: #D1DCCA;
+  --tm-surface1-rgb: 209 220 202;
+  --tm-surface0: #E3EADE;
+  --tm-surface0-rgb: 227 234 222;
+  --tm-base: #F5F9F2;
+  --tm-base-rgb: 245 249 242;
+  --tm-mantle: #ECF1E8;
+  --tm-mantle-rgb: 236 241 232;
+  --tm-crust: #E1E8DC;
+  --tm-crust-rgb: 225 232 220;
+  --tm-hero: var(--tm-fern);
+  --tm-hero-rgb: var(--tm-fern-rgb);
+  color-scheme: light;
+}
+
+:root[data-theme="summer"] {
+  --tm-ember: #A95109;
+  --tm-ember-rgb: 169 81 9;
+  --tm-amber: #91690A;
+  --tm-amber-rgb: 145 105 10;
+  --tm-moss: #6E751C;
+  --tm-moss-rgb: 110 117 28;
+  --tm-fern: #527B41;
+  --tm-fern-rgb: 82 123 65;
+  --tm-juniper: #28806A;
+  --tm-juniper-rgb: 40 128 106;
+  --tm-creek: #337A84;
+  --tm-creek-rgb: 51 122 132;
+  --tm-slate: #4F6E87;
+  --tm-slate-rgb: 79 110 135;
+  --tm-clay: #A04839;
+  --tm-clay-rgb: 160 72 57;
+  --tm-chokeberry: #95497F;
+  --tm-chokeberry-rgb: 149 73 127;
+  --tm-text: #2E271E;
+  --tm-text-rgb: 46 39 30;
+  --tm-subtext1: #554C3E;
+  --tm-subtext1-rgb: 85 76 62;
+  --tm-subtext0: #6E6454;
+  --tm-subtext0-rgb: 110 100 84;
+  --tm-overlay2: #877C69;
+  --tm-overlay2-rgb: 135 124 105;
+  --tm-overlay1: #A0947F;
+  --tm-overlay1-rgb: 160 148 127;
+  --tm-overlay0: #B8AC95;
+  --tm-overlay0-rgb: 184 172 149;
+  --tm-surface2: #CFC4AE;
+  --tm-surface2-rgb: 207 196 174;
+  --tm-surface1: #E0D7C6;
+  --tm-surface1-rgb: 224 215 198;
+  --tm-surface0: #EDE7DB;
+  --tm-surface0-rgb: 237 231 219;
+  --tm-base: #FAF7F1;
+  --tm-base-rgb: 250 247 241;
+  --tm-mantle: #F3EFE6;
+  --tm-mantle-rgb: 243 239 230;
+  --tm-crust: #EBE5D9;
+  --tm-crust-rgb: 235 229 217;
+  --tm-hero: var(--tm-ember);
+  --tm-hero-rgb: var(--tm-ember-rgb);
+  color-scheme: light;
+}
+
+:root[data-theme="fall"] {
+  --tm-ember: #F48D38;
+  --tm-ember-rgb: 244 141 56;
+  --tm-amber: #E2AB2D;
+  --tm-amber-rgb: 226 171 45;
+  --tm-moss: #AFB573;
+  --tm-moss-rgb: 175 181 115;
+  --tm-fern: #90BB7D;
+  --tm-fern-rgb: 144 187 125;
+  --tm-juniper: #68B5A2;
+  --tm-juniper-rgb: 104 181 162;
+  --tm-creek: #73AEB7;
+  --tm-creek-rgb: 115 174 183;
+  --tm-slate: #89A5BC;
+  --tm-slate-rgb: 137 165 188;
+  --tm-clay: #DE6D59;
+  --tm-clay-rgb: 222 109 89;
+  --tm-chokeberry: #B389A7;
+  --tm-chokeberry-rgb: 179 137 167;
+  --tm-text: #E6E0DB;
+  --tm-text-rgb: 230 224 219;
+  --tm-subtext1: #C5BEB7;
+  --tm-subtext1-rgb: 197 190 183;
+  --tm-subtext0: #A79E97;
+  --tm-subtext0-rgb: 167 158 151;
+  --tm-overlay2: #898079;
+  --tm-overlay2-rgb: 137 128 121;
+  --tm-overlay1: #6F665E;
+  --tm-overlay1-rgb: 111 102 94;
+  --tm-overlay0: #574E46;
+  --tm-overlay0-rgb: 87 78 70;
+  --tm-surface2: #403730;
+  --tm-surface2-rgb: 64 55 48;
+  --tm-surface1: #332C25;
+  --tm-surface1-rgb: 51 44 37;
+  --tm-surface0: #27211B;
+  --tm-surface0-rgb: 39 33 27;
+  --tm-base: #1B1612;
+  --tm-base-rgb: 27 22 18;
+  --tm-mantle: #14110E;
+  --tm-mantle-rgb: 20 17 14;
+  --tm-crust: #0F0C0A;
+  --tm-crust-rgb: 15 12 10;
+  --tm-hero: var(--tm-ember);
+  --tm-hero-rgb: var(--tm-ember-rgb);
+  color-scheme: dark;
+}
+
+:root[data-theme="winter"],
 :root[data-theme="dark"] {
-  --tm-ember: #E9954D;
-  --tm-ember-rgb: 233 149 77;
-  --tm-amber: #DCAE57;
-  --tm-amber-rgb: 220 174 87;
-  --tm-moss: #AFB766;
-  --tm-moss-rgb: 175 183 102;
-  --tm-fern: #8FBE71;
-  --tm-fern-rgb: 143 190 113;
-  --tm-juniper: #5AB99B;
-  --tm-juniper-rgb: 90 185 155;
-  --tm-creek: #66B2BA;
-  --tm-creek-rgb: 102 178 186;
-  --tm-slate: #88A6C2;
-  --tm-slate-rgb: 136 166 194;
-  --tm-clay: #D67464;
-  --tm-clay-rgb: 214 116 100;
-  --tm-chokeberry: #B988AA;
-  --tm-chokeberry-rgb: 185 136 170;
+  --tm-ember: #DF9960;
+  --tm-ember-rgb: 223 153 96;
+  --tm-amber: #D3B163;
+  --tm-amber-rgb: 211 177 99;
+  --tm-moss: #AFB853;
+  --tm-moss-rgb: 175 184 83;
+  --tm-fern: #81C165;
+  --tm-fern-rgb: 129 193 101;
+  --tm-juniper: #44BB9D;
+  --tm-juniper-rgb: 68 187 157;
+  --tm-creek: #5EB2BF;
+  --tm-creek-rgb: 94 178 191;
+  --tm-slate: #8BA6BD;
+  --tm-slate-rgb: 139 166 189;
+  --tm-clay: #CD796A;
+  --tm-clay-rgb: 205 121 106;
+  --tm-chokeberry: #B48AA8;
+  --tm-chokeberry-rgb: 180 138 168;
   --tm-text: #DFE5DC;
   --tm-text-rgb: 223 229 220;
   --tm-subtext1: #B8C4BB;
@@ -147,5 +299,7 @@
   --tm-mantle-rgb: 14 20 17;
   --tm-crust: #0A0F0C;
   --tm-crust-rgb: 10 15 12;
+  --tm-hero: var(--tm-juniper);
+  --tm-hero-rgb: var(--tm-juniper-rgb);
   color-scheme: dark;
 }

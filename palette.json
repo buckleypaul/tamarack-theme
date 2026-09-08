@@ -1,124 +1,131 @@
 {
-  "clearing": {
-    "name": "Clearing",
-    "emoji": "🌾",
+  "spring": {
+    "name": "Spring",
+    "emoji": "🌱",
     "order": 0,
     "dark": false,
+    "character": "Green-tinted white, 95°",
+    "hero": "fern",
+    "family": [
+      "fern",
+      "moss",
+      "juniper"
+    ],
     "colors": {
       "ember": {
         "name": "Ember",
         "order": 0,
-        "hex": "#A35514",
+        "hex": "#9E5920",
         "rgb": {
-          "r": 163,
-          "g": 85,
-          "b": 20
+          "r": 158,
+          "g": 89,
+          "b": 32
         },
         "hsl": {
-          "h": 27.27,
-          "s": 0.7814,
-          "l": 0.3588
+          "h": 27.14,
+          "s": 0.6632,
+          "l": 0.3725
         },
         "accent": true,
-        "contrastOnBase": 5.08
+        "contrastOnBase": 5.05
       },
       "amber": {
         "name": "Amber",
         "order": 1,
-        "hex": "#8F6A14",
+        "hex": "#8C6B1F",
         "rgb": {
-          "r": 143,
-          "g": 106,
-          "b": 20
+          "r": 140,
+          "g": 107,
+          "b": 31
         },
         "hsl": {
-          "h": 41.95,
-          "s": 0.7546,
-          "l": 0.3196
+          "h": 41.83,
+          "s": 0.6374,
+          "l": 0.3353
         },
         "accent": true,
-        "contrastOnBase": 4.63
+        "contrastOnBase": 4.65
       },
       "moss": {
         "name": "Moss",
         "order": 2,
-        "hex": "#6E7524",
+        "hex": "#6E761D",
         "rgb": {
           "r": 110,
-          "g": 117,
-          "b": 36
+          "g": 118,
+          "b": 29
         },
         "hsl": {
-          "h": 65.19,
-          "s": 0.5294,
-          "l": 0.3
+          "h": 65.39,
+          "s": 0.6054,
+          "l": 0.2882
         },
         "accent": true,
-        "contrastOnBase": 4.64
+        "contrastOnBase": 4.61
       },
       "fern": {
         "name": "Fern",
         "order": 3,
-        "hex": "#4E7C3A",
+        "hex": "#4A7D33",
         "rgb": {
-          "r": 78,
-          "g": 124,
-          "b": 58
+          "r": 74,
+          "g": 125,
+          "b": 51
         },
         "hsl": {
-          "h": 101.82,
-          "s": 0.3626,
-          "l": 0.3569
+          "h": 101.35,
+          "s": 0.4205,
+          "l": 0.3451
         },
         "accent": true,
-        "contrastOnBase": 4.6
+        "contrastOnBase": 4.61
       },
       "juniper": {
         "name": "Juniper",
         "order": 4,
-        "hex": "#1F8168",
+        "hex": "#168267",
         "rgb": {
-          "r": 31,
-          "g": 129,
-          "b": 104
+          "r": 22,
+          "g": 130,
+          "b": 103
         },
         "hsl": {
-          "h": 164.69,
-          "s": 0.6125,
-          "l": 0.3137
+          "h": 165.0,
+          "s": 0.7105,
+          "l": 0.298
         },
         "accent": true,
-        "contrastOnBase": 4.47
+        "contrastOnBase": 4.46
       },
       "creek": {
         "name": "Creek",
         "order": 5,
-        "hex": "#2A7B87",
+        "hex": "#337B86",
         "rgb": {
-          "r": 42,
+          "r": 51,
           "g": 123,
-          "b": 135
+          "b": 134
         },
         "hsl": {
-          "h": 187.74,
-          "s": 0.5254,
-          "l": 0.3471
+          "h": 187.95,
+          "s": 0.4486,
+          "l": 0.3627
         },
         "accent": true,
-        "contrastOnBase": 4.59
+        "contrastOnBase": 4.57
       },
       "slate": {
         "name": "Slate",
         "order": 6,
-        "hex": "#4A6E8C",
+        "hex": "#4F6E87",
         "rgb": {
-          "r": 74,
+          "r": 79,
           "g": 110,
-          "b": 140
+          "b": 135
         },
         "hsl": {
-          "h": 207.27,
-          "s": 0.3084,
+          "h": 206.79,
+          "s": 0.2617,
           "l": 0.4196
         },
         "accent": true,
@@ -127,16 +134,16 @@
       "clay": {
         "name": "Clay",
         "order": 7,
-        "hex": "#A8422F",
+        "hex": "#A14839",
         "rgb": {
-          "r": 168,
-          "g": 66,
-          "b": 47
+          "r": 161,
+          "g": 72,
+          "b": 57
         },
         "hsl": {
-          "h": 9.42,
-          "s": 0.5628,
-          "l": 0.4216
+          "h": 8.65,
+          "s": 0.4771,
+          "l": 0.4275
         },
         "accent": true,
         "contrastOnBase": 5.63
@@ -144,19 +151,649 @@
       "chokeberry": {
         "name": "Chokeberry",
         "order": 8,
-        "hex": "#9D4382",
+        "hex": "#964A7F",
         "rgb": {
-          "r": 157,
-          "g": 67,
-          "b": 130
+          "r": 150,
+          "g": 74,
+          "b": 127
         },
         "hsl": {
-          "h": 318.0,
-          "s": 0.4018,
+          "h": 318.16,
+          "s": 0.3393,
           "l": 0.4392
         },
         "accent": true,
-        "contrastOnBase": 5.52
+        "contrastOnBase": 5.5
+      },
+      "text": {
+        "name": "Text",
+        "order": 9,
+        "hex": "#252C20",
+        "rgb": {
+          "r": 37,
+          "g": 44,
+          "b": 32
+        },
+        "hsl": {
+          "h": 95.0,
+          "s": 0.1579,
+          "l": 0.149
+        },
+        "accent": false,
+        "contrastOnBase": 13.51
+      },
+      "subtext1": {
+        "name": "Subtext1",
+        "order": 10,
+        "hex": "#485241",
+        "rgb": {
+          "r": 72,
+          "g": 82,
+          "b": 65
+        },
+        "hsl": {
+          "h": 95.29,
+          "s": 0.1156,
+          "l": 0.2882
+        },
+        "accent": false,
+        "contrastOnBase": 7.7
+      },
+      "subtext0": {
+        "name": "Subtext0",
+        "order": 11,
+        "hex": "#5F6A58",
+        "rgb": {
+          "r": 95,
+          "g": 106,
+          "b": 88
+        },
+        "hsl": {
+          "h": 96.67,
+          "s": 0.0928,
+          "l": 0.3804
+        },
+        "accent": false,
+        "contrastOnBase": 5.34
+      },
+      "overlay2": {
+        "name": "Overlay2",
+        "order": 12,
+        "hex": "#76836D",
+        "rgb": {
+          "r": 118,
+          "g": 131,
+          "b": 109
+        },
+        "hsl": {
+          "h": 95.45,
+          "s": 0.0917,
+          "l": 0.4706
+        },
+        "accent": false,
+        "contrastOnBase": 3.76
+      },
+      "overlay1": {
+        "name": "Overlay1",
+        "order": 13,
+        "hex": "#8E9B84",
+        "rgb": {
+          "r": 142,
+          "g": 155,
+          "b": 132
+        },
+        "hsl": {
+          "h": 93.91,
+          "s": 0.1031,
+          "l": 0.5627
+        },
+        "accent": false,
+        "contrastOnBase": 2.75
+      },
+      "overlay0": {
+        "name": "Overlay0",
+        "order": 14,
+        "hex": "#A4B39A",
+        "rgb": {
+          "r": 164,
+          "g": 179,
+          "b": 154
+        },
+        "hsl": {
+          "h": 96.0,
+          "s": 0.1412,
+          "l": 0.6529
+        },
+        "accent": false,
+        "contrastOnBase": 2.08
+      },
+      "surface2": {
+        "name": "Surface2",
+        "order": 15,
+        "hex": "#BDCAB3",
+        "rgb": {
+          "r": 189,
+          "g": 202,
+          "b": 179
+        },
+        "hsl": {
+          "h": 93.91,
+          "s": 0.1783,
+          "l": 0.7471
+        },
+        "accent": false,
+        "contrastOnBase": 1.61
+      },
+      "surface1": {
+        "name": "Surface1",
+        "order": 16,
+        "hex": "#D1DCCA",
+        "rgb": {
+          "r": 209,
+          "g": 220,
+          "b": 202
+        },
+        "hsl": {
+          "h": 96.67,
+          "s": 0.2045,
+          "l": 0.8275
+        },
+        "accent": false,
+        "contrastOnBase": 1.33
+      },
+      "surface0": {
+        "name": "Surface0",
+        "order": 17,
+        "hex": "#E3EADE",
+        "rgb": {
+          "r": 227,
+          "g": 234,
+          "b": 222
+        },
+        "hsl": {
+          "h": 95.0,
+          "s": 0.2222,
+          "l": 0.8941
+        },
+        "accent": false,
+        "contrastOnBase": 1.15
+      },
+      "base": {
+        "name": "Base",
+        "order": 18,
+        "hex": "#F5F9F2",
+        "rgb": {
+          "r": 245,
+          "g": 249,
+          "b": 242
+        },
+        "hsl": {
+          "h": 94.29,
+          "s": 0.3684,
+          "l": 0.9627
+        },
+        "accent": false,
+        "contrastOnBase": 1.0
+      },
+      "mantle": {
+        "name": "Mantle",
+        "order": 19,
+        "hex": "#ECF1E8",
+        "rgb": {
+          "r": 236,
+          "g": 241,
+          "b": 232
+        },
+        "hsl": {
+          "h": 93.33,
+          "s": 0.2432,
+          "l": 0.9275
+        },
+        "accent": false,
+        "contrastOnBase": 1.08
+      },
+      "crust": {
+        "name": "Crust",
+        "order": 20,
+        "hex": "#E1E8DC",
+        "rgb": {
+          "r": 225,
+          "g": 232,
+          "b": 220
+        },
+        "hsl": {
+          "h": 95.0,
+          "s": 0.2069,
+          "l": 0.8863
+        },
+        "accent": false,
+        "contrastOnBase": 1.18
+      }
+    },
+    "ansiColors": {
+      "black": {
+        "name": "Black",
+        "order": 0,
+        "normal": {
+          "hex": "#485241",
+          "rgb": {
+            "r": 72,
+            "g": 82,
+            "b": 65
+          },
+          "hsl": {
+            "h": 95.29,
+            "s": 0.1156,
+            "l": 0.2882
+          },
+          "code": 0
+        },
+        "bright": {
+          "hex": "#5F6A58",
+          "rgb": {
+            "r": 95,
+            "g": 106,
+            "b": 88
+          },
+          "hsl": {
+            "h": 96.67,
+            "s": 0.0928,
+            "l": 0.3804
+          },
+          "code": 8
+        }
+      },
+      "red": {
+        "name": "Red",
+        "order": 1,
+        "normal": {
+          "hex": "#A14839",
+          "rgb": {
+            "r": 161,
+            "g": 72,
+            "b": 57
+          },
+          "hsl": {
+            "h": 8.65,
+            "s": 0.4771,
+            "l": 0.4275
+          },
+          "code": 1
+        },
+        "bright": {
+          "hex": "#BA5342",
+          "rgb": {
+            "r": 186,
+            "g": 83,
+            "b": 66
+          },
+          "hsl": {
+            "h": 8.5,
+            "s": 0.4762,
+            "l": 0.4941
+          },
+          "code": 9
+        }
+      },
+      "green": {
+        "name": "Green",
+        "order": 2,
+        "normal": {
+          "hex": "#4A7D33",
+          "rgb": {
+            "r": 74,
+            "g": 125,
+            "b": 51
+          },
+          "hsl": {
+            "h": 101.35,
+            "s": 0.4205,
+            "l": 0.3451
+          },
+          "code": 2
+        },
+        "bright": {
+          "hex": "#58953D",
+          "rgb": {
+            "r": 88,
+            "g": 149,
+            "b": 61
+          },
+          "hsl": {
+            "h": 101.59,
+            "s": 0.419,
+            "l": 0.4118
+          },
+          "code": 10
+        }
+      },
+      "yellow": {
+        "name": "Yellow",
+        "order": 3,
+        "normal": {
+          "hex": "#8C6B1F",
+          "rgb": {
+            "r": 140,
+            "g": 107,
+            "b": 31
+          },
+          "hsl": {
+            "h": 41.83,
+            "s": 0.6374,
+            "l": 0.3353
+          },
+          "code": 3
+        },
+        "bright": {
+          "hex": "#A78025",
+          "rgb": {
+            "r": 167,
+            "g": 128,
+            "b": 37
+          },
+          "hsl": {
+            "h": 42.0,
+            "s": 0.6373,
+            "l": 0.4
+          },
+          "code": 11
+        }
+      },
+      "blue": {
+        "name": "Blue",
+        "order": 4,
+        "normal": {
+          "hex": "#4F6E87",
+          "rgb": {
+            "r": 79,
+            "g": 110,
+            "b": 135
+          },
+          "hsl": {
+            "h": 206.79,
+            "s": 0.2617,
+            "l": 0.4196
+          },
+          "code": 4
+        },
+        "bright": {
+          "hex": "#5B7F9C",
+          "rgb": {
+            "r": 91,
+            "g": 127,
+            "b": 156
+          },
+          "hsl": {
+            "h": 206.77,
+            "s": 0.2632,
+            "l": 0.4843
+          },
+          "code": 12
+        }
+      },
+      "magenta": {
+        "name": "Magenta",
+        "order": 5,
+        "normal": {
+          "hex": "#964A7F",
+          "rgb": {
+            "r": 150,
+            "g": 74,
+            "b": 127
+          },
+          "hsl": {
+            "h": 318.16,
+            "s": 0.3393,
+            "l": 0.4392
+          },
+          "code": 5
+        },
+        "bright": {
+          "hex": "#AB5692",
+          "rgb": {
+            "r": 171,
+            "g": 86,
+            "b": 146
+          },
+          "hsl": {
+            "h": 317.65,
+            "s": 0.336,
+            "l": 0.5039
+          },
+          "code": 13
+        }
+      },
+      "cyan": {
+        "name": "Cyan",
+        "order": 6,
+        "normal": {
+          "hex": "#337B86",
+          "rgb": {
+            "r": 51,
+            "g": 123,
+            "b": 134
+          },
+          "hsl": {
+            "h": 187.95,
+            "s": 0.4486,
+            "l": 0.3627
+          },
+          "code": 6
+        },
+        "bright": {
+          "hex": "#3C919E",
+          "rgb": {
+            "r": 60,
+            "g": 145,
+            "b": 158
+          },
+          "hsl": {
+            "h": 187.96,
+            "s": 0.4495,
+            "l": 0.4275
+          },
+          "code": 14
+        }
+      },
+      "white": {
+        "name": "White",
+        "order": 7,
+        "normal": {
+          "hex": "#8E9B84",
+          "rgb": {
+            "r": 142,
+            "g": 155,
+            "b": 132
+          },
+          "hsl": {
+            "h": 93.91,
+            "s": 0.1031,
+            "l": 0.5627
+          },
+          "code": 7
+        },
+        "bright": {
+          "hex": "#76836D",
+          "rgb": {
+            "r": 118,
+            "g": 131,
+            "b": 109
+          },
+          "hsl": {
+            "h": 95.45,
+            "s": 0.0917,
+            "l": 0.4706
+          },
+          "code": 15
+        }
+      }
+    }
+  },
+  "summer": {
+    "name": "Summer",
+    "emoji": "🌻",
+    "order": 1,
+    "dark": false,
+    "character": "Warm white, 40°",
+    "hero": "ember",
+    "family": [
+      "ember",
+      "amber",
+      "moss"
+    ],
+    "colors": {
+      "ember": {
+        "name": "Ember",
+        "order": 0,
+        "hex": "#A95109",
+        "rgb": {
+          "r": 169,
+          "g": 81,
+          "b": 9
+        },
+        "hsl": {
+          "h": 27.0,
+          "s": 0.8989,
+          "l": 0.349
+        },
+        "accent": true,
+        "contrastOnBase": 5.08
+      },
+      "amber": {
+        "name": "Amber",
+        "order": 1,
+        "hex": "#91690A",
+        "rgb": {
+          "r": 145,
+          "g": 105,
+          "b": 10
+        },
+        "hsl": {
+          "h": 42.22,
+          "s": 0.871,
+          "l": 0.3039
+        },
+        "accent": true,
+        "contrastOnBase": 4.64
+      },
+      "moss": {
+        "name": "Moss",
+        "order": 2,
+        "hex": "#6E751C",
+        "rgb": {
+          "r": 110,
+          "g": 117,
+          "b": 28
+        },
+        "hsl": {
+          "h": 64.72,
+          "s": 0.6138,
+          "l": 0.2843
+        },
+        "accent": true,
+        "contrastOnBase": 4.65
+      },
+      "fern": {
+        "name": "Fern",
+        "order": 3,
+        "hex": "#527B41",
+        "rgb": {
+          "r": 82,
+          "g": 123,
+          "b": 65
+        },
+        "hsl": {
+          "h": 102.41,
+          "s": 0.3085,
+          "l": 0.3686
+        },
+        "accent": true,
+        "contrastOnBase": 4.6
+      },
+      "juniper": {
+        "name": "Juniper",
+        "order": 4,
+        "hex": "#28806A",
+        "rgb": {
+          "r": 40,
+          "g": 128,
+          "b": 106
+        },
+        "hsl": {
+          "h": 165.0,
+          "s": 0.5238,
+          "l": 0.3294
+        },
+        "accent": true,
+        "contrastOnBase": 4.48
+      },
+      "creek": {
+        "name": "Creek",
+        "order": 5,
+        "hex": "#337A84",
+        "rgb": {
+          "r": 51,
+          "g": 122,
+          "b": 132
+        },
+        "hsl": {
+          "h": 187.41,
+          "s": 0.4426,
+          "l": 0.3588
+        },
+        "accent": true,
+        "contrastOnBase": 4.61
+      },
+      "slate": {
+        "name": "Slate",
+        "order": 6,
+        "hex": "#4F6E87",
+        "rgb": {
+          "r": 79,
+          "g": 110,
+          "b": 135
+        },
+        "hsl": {
+          "h": 206.79,
+          "s": 0.2617,
+          "l": 0.4196
+        },
+        "accent": true,
+        "contrastOnBase": 5.02
+      },
+      "clay": {
+        "name": "Clay",
+        "order": 7,
+        "hex": "#A04839",
+        "rgb": {
+          "r": 160,
+          "g": 72,
+          "b": 57
+        },
+        "hsl": {
+          "h": 8.74,
+          "s": 0.4747,
+          "l": 0.4255
+        },
+        "accent": true,
+        "contrastOnBase": 5.64
+      },
+      "chokeberry": {
+        "name": "Chokeberry",
+        "order": 8,
+        "hex": "#95497F",
+        "rgb": {
+          "r": 149,
+          "g": 73,
+          "b": 127
+        },
+        "hsl": {
+          "h": 317.37,
+          "s": 0.3423,
+          "l": 0.4353
+        },
+        "accent": true,
+        "contrastOnBase": 5.55
       },
       "text": {
         "name": "Text",
@@ -400,30 +1037,30 @@
         "name": "Red",
         "order": 1,
         "normal": {
-          "hex": "#A8422F",
+          "hex": "#A04839",
           "rgb": {
-            "r": 168,
-            "g": 66,
-            "b": 47
+            "r": 160,
+            "g": 72,
+            "b": 57
           },
           "hsl": {
-            "h": 9.42,
-            "s": 0.5628,
-            "l": 0.4216
+            "h": 8.74,
+            "s": 0.4747,
+            "l": 0.4255
           },
           "code": 1
         },
         "bright": {
-          "hex": "#BC5340",
+          "hex": "#B85342",
           "rgb": {
-            "r": 188,
+            "r": 184,
             "g": 83,
-            "b": 64
+            "b": 66
           },
           "hsl": {
-            "h": 9.19,
-            "s": 0.4921,
-            "l": 0.4941
+            "h": 8.64,
+            "s": 0.472,
+            "l": 0.4902
           },
           "code": 9
         }
@@ -432,30 +1069,30 @@
         "name": "Green",
         "order": 2,
         "normal": {
-          "hex": "#4E7C3A",
+          "hex": "#527B41",
           "rgb": {
-            "r": 78,
-            "g": 124,
-            "b": 58
+            "r": 82,
+            "g": 123,
+            "b": 65
           },
           "hsl": {
-            "h": 101.82,
-            "s": 0.3626,
-            "l": 0.3569
+            "h": 102.41,
+            "s": 0.3085,
+            "l": 0.3686
           },
           "code": 2
         },
         "bright": {
-          "hex": "#5C8E45",
+          "hex": "#60914C",
           "rgb": {
-            "r": 92,
-            "g": 142,
-            "b": 69
+            "r": 96,
+            "g": 145,
+            "b": 76
           },
           "hsl": {
-            "h": 101.1,
-            "s": 0.346,
-            "l": 0.4137
+            "h": 102.61,
+            "s": 0.3122,
+            "l": 0.4333
           },
           "code": 10
         }
@@ -464,30 +1101,30 @@
         "name": "Yellow",
         "order": 3,
         "normal": {
-          "hex": "#8F6A14",
+          "hex": "#91690A",
           "rgb": {
-            "r": 143,
-            "g": 106,
-            "b": 20
+            "r": 145,
+            "g": 105,
+            "b": 10
           },
           "hsl": {
-            "h": 41.95,
-            "s": 0.7546,
-            "l": 0.3196
+            "h": 42.22,
+            "s": 0.871,
+            "l": 0.3039
           },
           "code": 3
         },
         "bright": {
-          "hex": "#A07920",
+          "hex": "#B07F0C",
           "rgb": {
-            "r": 160,
-            "g": 121,
-            "b": 32
+            "r": 176,
+            "g": 127,
+            "b": 12
           },
           "hsl": {
-            "h": 41.72,
-            "s": 0.6667,
-            "l": 0.3765
+            "h": 42.07,
+            "s": 0.8723,
+            "l": 0.3686
           },
           "code": 11
         }
@@ -496,30 +1133,30 @@
         "name": "Blue",
         "order": 4,
         "normal": {
-          "hex": "#4A6E8C",
+          "hex": "#4F6E87",
           "rgb": {
-            "r": 74,
+            "r": 79,
             "g": 110,
-            "b": 140
+            "b": 135
           },
           "hsl": {
-            "h": 207.27,
-            "s": 0.3084,
+            "h": 206.79,
+            "s": 0.2617,
             "l": 0.4196
           },
           "code": 4
         },
         "bright": {
-          "hex": "#587FA0",
+          "hex": "#5B7F9C",
           "rgb": {
-            "r": 88,
+            "r": 91,
             "g": 127,
-            "b": 160
+            "b": 156
           },
           "hsl": {
-            "h": 207.5,
-            "s": 0.2903,
-            "l": 0.4863
+            "h": 206.77,
+            "s": 0.2632,
+            "l": 0.4843
           },
           "code": 12
         }
@@ -528,30 +1165,30 @@
         "name": "Magenta",
         "order": 5,
         "normal": {
-          "hex": "#9D4382",
+          "hex": "#95497F",
           "rgb": {
-            "r": 157,
-            "g": 67,
-            "b": 130
+            "r": 149,
+            "g": 73,
+            "b": 127
           },
           "hsl": {
-            "h": 318.0,
-            "s": 0.4018,
-            "l": 0.4392
+            "h": 317.37,
+            "s": 0.3423,
+            "l": 0.4353
           },
           "code": 5
         },
         "bright": {
-          "hex": "#B25395",
+          "hex": "#AB5492",
           "rgb": {
-            "r": 178,
-            "g": 83,
-            "b": 149
+            "r": 171,
+            "g": 84,
+            "b": 146
           },
           "hsl": {
-            "h": 318.32,
-            "s": 0.3815,
-            "l": 0.5118
+            "h": 317.24,
+            "s": 0.3412,
+            "l": 0.5
           },
           "code": 13
         }
@@ -560,30 +1197,30 @@
         "name": "Cyan",
         "order": 6,
         "normal": {
-          "hex": "#2A7B87",
+          "hex": "#337A84",
           "rgb": {
-            "r": 42,
-            "g": 123,
-            "b": 135
+            "r": 51,
+            "g": 122,
+            "b": 132
           },
           "hsl": {
-            "h": 187.74,
-            "s": 0.5254,
-            "l": 0.3471
+            "h": 187.41,
+            "s": 0.4426,
+            "l": 0.3588
           },
           "code": 6
         },
         "bright": {
-          "hex": "#358995",
+          "hex": "#3C909C",
           "rgb": {
-            "r": 53,
-            "g": 137,
-            "b": 149
+            "r": 60,
+            "g": 144,
+            "b": 156
           },
           "hsl": {
             "h": 187.5,
-            "s": 0.4752,
-            "l": 0.3961
+            "s": 0.4444,
+            "l": 0.4235
           },
           "code": 14
         }
@@ -622,93 +1259,100 @@
       }
     }
   },
-  "thicket": {
-    "name": "Thicket",
-    "emoji": "🌲",
-    "order": 1,
+  "fall": {
+    "name": "Fall",
+    "emoji": "🍂",
+    "order": 2,
     "dark": true,
+    "character": "Warm brown-black, 28°",
+    "hero": "ember",
+    "family": [
+      "ember",
+      "amber",
+      "clay"
+    ],
     "colors": {
       "ember": {
         "name": "Ember",
         "order": 0,
-        "hex": "#E9954D",
+        "hex": "#F48D38",
         "rgb": {
-          "r": 233,
-          "g": 149,
-          "b": 77
+          "r": 244,
+          "g": 141,
+          "b": 56
         },
         "hsl": {
-          "h": 27.69,
-          "s": 0.78,
-          "l": 0.6078
+          "h": 27.13,
+          "s": 0.8952,
+          "l": 0.5882
         },
         "accent": true,
-        "contrastOnBase": 7.47
+        "contrastOnBase": 7.45
       },
       "amber": {
         "name": "Amber",
         "order": 1,
-        "hex": "#DCAE57",
+        "hex": "#E2AB2D",
         "rgb": {
-          "r": 220,
-          "g": 174,
-          "b": 87
+          "r": 226,
+          "g": 171,
+          "b": 45
         },
         "hsl": {
-          "h": 39.25,
-          "s": 0.6552,
-          "l": 0.602
+          "h": 41.77,
+          "s": 0.7573,
+          "l": 0.5314
         },
         "accent": true,
-        "contrastOnBase": 8.62
+        "contrastOnBase": 8.63
       },
       "moss": {
         "name": "Moss",
         "order": 2,
-        "hex": "#AFB766",
+        "hex": "#AFB573",
         "rgb": {
           "r": 175,
-          "g": 183,
-          "b": 102
+          "g": 181,
+          "b": 115
         },
         "hsl": {
-          "h": 65.93,
-          "s": 0.36,
-          "l": 0.5588
+          "h": 65.45,
+          "s": 0.3084,
+          "l": 0.5804
         },
         "accent": true,
-        "contrastOnBase": 8.25
+        "contrastOnBase": 8.27
       },
       "fern": {
         "name": "Fern",
         "order": 3,
-        "hex": "#8FBE71",
+        "hex": "#90BB7D",
         "rgb": {
-          "r": 143,
-          "g": 190,
-          "b": 113
+          "r": 144,
+          "g": 187,
+          "b": 125
         },
         "hsl": {
-          "h": 96.62,
-          "s": 0.372,
-          "l": 0.5941
+          "h": 101.61,
+          "s": 0.3131,
+          "l": 0.6118
         },
         "accent": true,
-        "contrastOnBase": 8.23
+        "contrastOnBase": 8.2
       },
       "juniper": {
         "name": "Juniper",
         "order": 4,
-        "hex": "#5AB99B",
+        "hex": "#68B5A2",
         "rgb": {
-          "r": 90,
-          "g": 185,
-          "b": 155
+          "r": 104,
+          "g": 181,
+          "b": 162
         },
         "hsl": {
-          "h": 161.05,
-          "s": 0.4043,
-          "l": 0.5392
+          "h": 165.19,
+          "s": 0.3422,
+          "l": 0.5588
         },
         "accent": true,
         "contrastOnBase": 7.45
@@ -716,33 +1360,33 @@
       "creek": {
         "name": "Creek",
         "order": 5,
-        "hex": "#66B2BA",
+        "hex": "#73AEB7",
         "rgb": {
-          "r": 102,
-          "g": 178,
-          "b": 186
+          "r": 115,
+          "g": 174,
+          "b": 183
         },
         "hsl": {
-          "h": 185.71,
-          "s": 0.3784,
-          "l": 0.5647
+          "h": 187.94,
+          "s": 0.3208,
+          "l": 0.5843
         },
         "accent": true,
-        "contrastOnBase": 7.28
+        "contrastOnBase": 7.24
       },
       "slate": {
         "name": "Slate",
         "order": 6,
-        "hex": "#88A6C2",
+        "hex": "#89A5BC",
         "rgb": {
-          "r": 136,
-          "g": 166,
-          "b": 194
+          "r": 137,
+          "g": 165,
+          "b": 188
         },
         "hsl": {
-          "h": 208.97,
-          "s": 0.3222,
-          "l": 0.6471
+          "h": 207.06,
+          "s": 0.2757,
+          "l": 0.6373
         },
         "accent": true,
         "contrastOnBase": 6.98
@@ -750,16 +1394,647 @@
       "clay": {
         "name": "Clay",
         "order": 7,
-        "hex": "#D67464",
+        "hex": "#DE6D59",
         "rgb": {
-          "r": 214,
-          "g": 116,
-          "b": 100
+          "r": 222,
+          "g": 109,
+          "b": 89
         },
         "hsl": {
-          "h": 8.42,
-          "s": 0.5816,
-          "l": 0.6157
+          "h": 9.02,
+          "s": 0.6683,
+          "l": 0.6098
+        },
+        "accent": true,
+        "contrastOnBase": 5.5
+      },
+      "chokeberry": {
+        "name": "Chokeberry",
+        "order": 8,
+        "hex": "#B389A7",
+        "rgb": {
+          "r": 179,
+          "g": 137,
+          "b": 167
+        },
+        "hsl": {
+          "h": 317.14,
+          "s": 0.2165,
+          "l": 0.6196
+        },
+        "accent": true,
+        "contrastOnBase": 6.03
+      },
+      "text": {
+        "name": "Text",
+        "order": 9,
+        "hex": "#E6E0DB",
+        "rgb": {
+          "r": 230,
+          "g": 224,
+          "b": 219
+        },
+        "hsl": {
+          "h": 27.27,
+          "s": 0.1803,
+          "l": 0.8804
+        },
+        "accent": false,
+        "contrastOnBase": 13.72
+      },
+      "subtext1": {
+        "name": "Subtext1",
+        "order": 10,
+        "hex": "#C5BEB7",
+        "rgb": {
+          "r": 197,
+          "g": 190,
+          "b": 183
+        },
+        "hsl": {
+          "h": 30.0,
+          "s": 0.1077,
+          "l": 0.7451
+        },
+        "accent": false,
+        "contrastOnBase": 9.76
+      },
+      "subtext0": {
+        "name": "Subtext0",
+        "order": 11,
+        "hex": "#A79E97",
+        "rgb": {
+          "r": 167,
+          "g": 158,
+          "b": 151
+        },
+        "hsl": {
+          "h": 26.25,
+          "s": 0.0833,
+          "l": 0.6235
+        },
+        "accent": false,
+        "contrastOnBase": 6.82
+      },
+      "overlay2": {
+        "name": "Overlay2",
+        "order": 12,
+        "hex": "#898079",
+        "rgb": {
+          "r": 137,
+          "g": 128,
+          "b": 121
+        },
+        "hsl": {
+          "h": 26.25,
+          "s": 0.0635,
+          "l": 0.5059
+        },
+        "accent": false,
+        "contrastOnBase": 4.64
+      },
+      "overlay1": {
+        "name": "Overlay1",
+        "order": 13,
+        "hex": "#6F665E",
+        "rgb": {
+          "r": 111,
+          "g": 102,
+          "b": 94
+        },
+        "hsl": {
+          "h": 28.24,
+          "s": 0.0829,
+          "l": 0.402
+        },
+        "accent": false,
+        "contrastOnBase": 3.19
+      },
+      "overlay0": {
+        "name": "Overlay0",
+        "order": 14,
+        "hex": "#574E46",
+        "rgb": {
+          "r": 87,
+          "g": 78,
+          "b": 70
+        },
+        "hsl": {
+          "h": 28.24,
+          "s": 0.1083,
+          "l": 0.3078
+        },
+        "accent": false,
+        "contrastOnBase": 2.21
+      },
+      "surface2": {
+        "name": "Surface2",
+        "order": 15,
+        "hex": "#403730",
+        "rgb": {
+          "r": 64,
+          "g": 55,
+          "b": 48
+        },
+        "hsl": {
+          "h": 26.25,
+          "s": 0.1429,
+          "l": 0.2196
+        },
+        "accent": false,
+        "contrastOnBase": 1.54
+      },
+      "surface1": {
+        "name": "Surface1",
+        "order": 16,
+        "hex": "#332C25",
+        "rgb": {
+          "r": 51,
+          "g": 44,
+          "b": 37
+        },
+        "hsl": {
+          "h": 30.0,
+          "s": 0.1591,
+          "l": 0.1725
+        },
+        "accent": false,
+        "contrastOnBase": 1.31
+      },
+      "surface0": {
+        "name": "Surface0",
+        "order": 17,
+        "hex": "#27211B",
+        "rgb": {
+          "r": 39,
+          "g": 33,
+          "b": 27
+        },
+        "hsl": {
+          "h": 30.0,
+          "s": 0.1818,
+          "l": 0.1294
+        },
+        "accent": false,
+        "contrastOnBase": 1.13
+      },
+      "base": {
+        "name": "Base",
+        "order": 18,
+        "hex": "#1B1612",
+        "rgb": {
+          "r": 27,
+          "g": 22,
+          "b": 18
+        },
+        "hsl": {
+          "h": 26.67,
+          "s": 0.2,
+          "l": 0.0882
+        },
+        "accent": false,
+        "contrastOnBase": 1.0
+      },
+      "mantle": {
+        "name": "Mantle",
+        "order": 19,
+        "hex": "#14110E",
+        "rgb": {
+          "r": 20,
+          "g": 17,
+          "b": 14
+        },
+        "hsl": {
+          "h": 30.0,
+          "s": 0.1765,
+          "l": 0.0667
+        },
+        "accent": false,
+        "contrastOnBase": 1.05
+      },
+      "crust": {
+        "name": "Crust",
+        "order": 20,
+        "hex": "#0F0C0A",
+        "rgb": {
+          "r": 15,
+          "g": 12,
+          "b": 10
+        },
+        "hsl": {
+          "h": 24.0,
+          "s": 0.2,
+          "l": 0.049
+        },
+        "accent": false,
+        "contrastOnBase": 1.09
+      }
+    },
+    "ansiColors": {
+      "black": {
+        "name": "Black",
+        "order": 0,
+        "normal": {
+          "hex": "#332C25",
+          "rgb": {
+            "r": 51,
+            "g": 44,
+            "b": 37
+          },
+          "hsl": {
+            "h": 30.0,
+            "s": 0.1591,
+            "l": 0.1725
+          },
+          "code": 0
+        },
+        "bright": {
+          "hex": "#403730",
+          "rgb": {
+            "r": 64,
+            "g": 55,
+            "b": 48
+          },
+          "hsl": {
+            "h": 26.25,
+            "s": 0.1429,
+            "l": 0.2196
+          },
+          "code": 8
+        }
+      },
+      "red": {
+        "name": "Red",
+        "order": 1,
+        "normal": {
+          "hex": "#DE6D59",
+          "rgb": {
+            "r": 222,
+            "g": 109,
+            "b": 89
+          },
+          "hsl": {
+            "h": 9.02,
+            "s": 0.6683,
+            "l": 0.6098
+          },
+          "code": 1
+        },
+        "bright": {
+          "hex": "#E38575",
+          "rgb": {
+            "r": 227,
+            "g": 133,
+            "b": 117
+          },
+          "hsl": {
+            "h": 8.73,
+            "s": 0.6627,
+            "l": 0.6745
+          },
+          "code": 9
+        }
+      },
+      "green": {
+        "name": "Green",
+        "order": 2,
+        "normal": {
+          "hex": "#90BB7D",
+          "rgb": {
+            "r": 144,
+            "g": 187,
+            "b": 125
+          },
+          "hsl": {
+            "h": 101.61,
+            "s": 0.3131,
+            "l": 0.6118
+          },
+          "code": 2
+        },
+        "bright": {
+          "hex": "#A3C693",
+          "rgb": {
+            "r": 163,
+            "g": 198,
+            "b": 147
+          },
+          "hsl": {
+            "h": 101.18,
+            "s": 0.3091,
+            "l": 0.6765
+          },
+          "code": 10
+        }
+      },
+      "yellow": {
+        "name": "Yellow",
+        "order": 3,
+        "normal": {
+          "hex": "#E2AB2D",
+          "rgb": {
+            "r": 226,
+            "g": 171,
+            "b": 45
+          },
+          "hsl": {
+            "h": 41.77,
+            "s": 0.7573,
+            "l": 0.5314
+          },
+          "code": 3
+        },
+        "bright": {
+          "hex": "#E6B74A",
+          "rgb": {
+            "r": 230,
+            "g": 183,
+            "b": 74
+          },
+          "hsl": {
+            "h": 41.92,
+            "s": 0.7573,
+            "l": 0.5961
+          },
+          "code": 11
+        }
+      },
+      "blue": {
+        "name": "Blue",
+        "order": 4,
+        "normal": {
+          "hex": "#89A5BC",
+          "rgb": {
+            "r": 137,
+            "g": 165,
+            "b": 188
+          },
+          "hsl": {
+            "h": 207.06,
+            "s": 0.2757,
+            "l": 0.6373
+          },
+          "code": 4
+        },
+        "bright": {
+          "hex": "#9EB5C8",
+          "rgb": {
+            "r": 158,
+            "g": 181,
+            "b": 200
+          },
+          "hsl": {
+            "h": 207.14,
+            "s": 0.2763,
+            "l": 0.702
+          },
+          "code": 12
+        }
+      },
+      "magenta": {
+        "name": "Magenta",
+        "order": 5,
+        "normal": {
+          "hex": "#B389A7",
+          "rgb": {
+            "r": 179,
+            "g": 137,
+            "b": 167
+          },
+          "hsl": {
+            "h": 317.14,
+            "s": 0.2165,
+            "l": 0.6196
+          },
+          "code": 5
+        },
+        "bright": {
+          "hex": "#C09DB6",
+          "rgb": {
+            "r": 192,
+            "g": 157,
+            "b": 182
+          },
+          "hsl": {
+            "h": 317.14,
+            "s": 0.2174,
+            "l": 0.6843
+          },
+          "code": 13
+        }
+      },
+      "cyan": {
+        "name": "Cyan",
+        "order": 6,
+        "normal": {
+          "hex": "#73AEB7",
+          "rgb": {
+            "r": 115,
+            "g": 174,
+            "b": 183
+          },
+          "hsl": {
+            "h": 187.94,
+            "s": 0.3208,
+            "l": 0.5843
+          },
+          "code": 6
+        },
+        "bright": {
+          "hex": "#89BBC2",
+          "rgb": {
+            "r": 137,
+            "g": 187,
+            "b": 194
+          },
+          "hsl": {
+            "h": 187.37,
+            "s": 0.3184,
+            "l": 0.649
+          },
+          "code": 14
+        }
+      },
+      "white": {
+        "name": "White",
+        "order": 7,
+        "normal": {
+          "hex": "#C5BEB7",
+          "rgb": {
+            "r": 197,
+            "g": 190,
+            "b": 183
+          },
+          "hsl": {
+            "h": 30.0,
+            "s": 0.1077,
+            "l": 0.7451
+          },
+          "code": 7
+        },
+        "bright": {
+          "hex": "#E6E0DB",
+          "rgb": {
+            "r": 230,
+            "g": 224,
+            "b": 219
+          },
+          "hsl": {
+            "h": 27.27,
+            "s": 0.1803,
+            "l": 0.8804
+          },
+          "code": 15
+        }
+      }
+    }
+  },
+  "winter": {
+    "name": "Winter",
+    "emoji": "🌲",
+    "order": 3,
+    "dark": true,
+    "character": "Forest black, 146°",
+    "hero": "juniper",
+    "family": [
+      "juniper",
+      "fern",
+      "moss",
+      "creek"
+    ],
+    "colors": {
+      "ember": {
+        "name": "Ember",
+        "order": 0,
+        "hex": "#DF9960",
+        "rgb": {
+          "r": 223,
+          "g": 153,
+          "b": 96
+        },
+        "hsl": {
+          "h": 26.93,
+          "s": 0.6649,
+          "l": 0.6255
+        },
+        "accent": true,
+        "contrastOnBase": 7.47
+      },
+      "amber": {
+        "name": "Amber",
+        "order": 1,
+        "hex": "#D3B163",
+        "rgb": {
+          "r": 211,
+          "g": 177,
+          "b": 99
+        },
+        "hsl": {
+          "h": 41.79,
+          "s": 0.56,
+          "l": 0.6078
+        },
+        "accent": true,
+        "contrastOnBase": 8.63
+      },
+      "moss": {
+        "name": "Moss",
+        "order": 2,
+        "hex": "#AFB853",
+        "rgb": {
+          "r": 175,
+          "g": 184,
+          "b": 83
+        },
+        "hsl": {
+          "h": 65.35,
+          "s": 0.4156,
+          "l": 0.5235
+        },
+        "accent": true,
+        "contrastOnBase": 8.26
+      },
+      "fern": {
+        "name": "Fern",
+        "order": 3,
+        "hex": "#81C165",
+        "rgb": {
+          "r": 129,
+          "g": 193,
+          "b": 101
+        },
+        "hsl": {
+          "h": 101.74,
+          "s": 0.4259,
+          "l": 0.5765
+        },
+        "accent": true,
+        "contrastOnBase": 8.21
+      },
+      "juniper": {
+        "name": "Juniper",
+        "order": 4,
+        "hex": "#44BB9D",
+        "rgb": {
+          "r": 68,
+          "g": 187,
+          "b": 157
+        },
+        "hsl": {
+          "h": 164.87,
+          "s": 0.4667,
+          "l": 0.5
+        },
+        "accent": true,
+        "contrastOnBase": 7.45
+      },
+      "creek": {
+        "name": "Creek",
+        "order": 5,
+        "hex": "#5EB2BF",
+        "rgb": {
+          "r": 94,
+          "g": 178,
+          "b": 191
+        },
+        "hsl": {
+          "h": 188.04,
+          "s": 0.4311,
+          "l": 0.5588
+        },
+        "accent": true,
+        "contrastOnBase": 7.24
+      },
+      "slate": {
+        "name": "Slate",
+        "order": 6,
+        "hex": "#8BA6BD",
+        "rgb": {
+          "r": 139,
+          "g": 166,
+          "b": 189
+        },
+        "hsl": {
+          "h": 207.6,
+          "s": 0.2747,
+          "l": 0.6431
+        },
+        "accent": true,
+        "contrastOnBase": 6.98
+      },
+      "clay": {
+        "name": "Clay",
+        "order": 7,
+        "hex": "#CD796A",
+        "rgb": {
+          "r": 205,
+          "g": 121,
+          "b": 106
+        },
+        "hsl": {
+          "h": 9.09,
+          "s": 0.4975,
+          "l": 0.6098
         },
         "accent": true,
         "contrastOnBase": 5.51
@@ -767,19 +2042,19 @@
       "chokeberry": {
         "name": "Chokeberry",
         "order": 8,
-        "hex": "#B988AA",
+        "hex": "#B48AA8",
         "rgb": {
-          "r": 185,
-          "g": 136,
-          "b": 170
+          "r": 180,
+          "g": 138,
+          "b": 168
         },
         "hsl": {
-          "h": 318.37,
-          "s": 0.2593,
-          "l": 0.6294
+          "h": 317.14,
+          "s": 0.2188,
+          "l": 0.6235
         },
         "accent": true,
-        "contrastOnBase": 6.04
+        "contrastOnBase": 6.02
       },
       "text": {
         "name": "Text",
@@ -1023,30 +2298,30 @@
         "name": "Red",
         "order": 1,
         "normal": {
-          "hex": "#D67464",
+          "hex": "#CD796A",
           "rgb": {
-            "r": 214,
-            "g": 116,
-            "b": 100
+            "r": 205,
+            "g": 121,
+            "b": 106
           },
           "hsl": {
-            "h": 8.42,
-            "s": 0.5816,
-            "l": 0.6157
+            "h": 9.09,
+            "s": 0.4975,
+            "l": 0.6098
           },
           "code": 1
         },
         "bright": {
-          "hex": "#E08A7B",
+          "hex": "#D58F83",
           "rgb": {
-            "r": 224,
-            "g": 138,
-            "b": 123
+            "r": 213,
+            "g": 143,
+            "b": 131
           },
           "hsl": {
-            "h": 8.91,
-            "s": 0.6196,
-            "l": 0.6804
+            "h": 8.78,
+            "s": 0.494,
+            "l": 0.6745
           },
           "code": 9
         }
@@ -1055,30 +2330,30 @@
         "name": "Green",
         "order": 2,
         "normal": {
-          "hex": "#8FBE71",
+          "hex": "#81C165",
           "rgb": {
-            "r": 143,
-            "g": 190,
-            "b": 113
+            "r": 129,
+            "g": 193,
+            "b": 101
           },
           "hsl": {
-            "h": 96.62,
-            "s": 0.372,
-            "l": 0.5941
+            "h": 101.74,
+            "s": 0.4259,
+            "l": 0.5765
           },
           "code": 2
         },
         "bright": {
-          "hex": "#A0CB84",
+          "hex": "#94CB7D",
           "rgb": {
-            "r": 160,
+            "r": 148,
             "g": 203,
-            "b": 132
+            "b": 125
           },
           "hsl": {
-            "h": 96.34,
-            "s": 0.4057,
-            "l": 0.6569
+            "h": 102.31,
+            "s": 0.4286,
+            "l": 0.6431
           },
           "code": 10
         }
@@ -1087,30 +2362,30 @@
         "name": "Yellow",
         "order": 3,
         "normal": {
-          "hex": "#DCAE57",
+          "hex": "#D3B163",
           "rgb": {
-            "r": 220,
-            "g": 174,
-            "b": 87
+            "r": 211,
+            "g": 177,
+            "b": 99
           },
           "hsl": {
-            "h": 39.25,
-            "s": 0.6552,
-            "l": 0.602
+            "h": 41.79,
+            "s": 0.56,
+            "l": 0.6078
           },
           "code": 3
         },
         "bright": {
-          "hex": "#E6BC6F",
+          "hex": "#DABE7D",
           "rgb": {
-            "r": 230,
-            "g": 188,
-            "b": 111
+            "r": 218,
+            "g": 190,
+            "b": 125
           },
           "hsl": {
-            "h": 38.82,
-            "s": 0.7041,
-            "l": 0.6686
+            "h": 41.94,
+            "s": 0.5569,
+            "l": 0.6725
           },
           "code": 11
         }
@@ -1119,30 +2394,30 @@
         "name": "Blue",
         "order": 4,
         "normal": {
-          "hex": "#88A6C2",
+          "hex": "#8BA6BD",
           "rgb": {
-            "r": 136,
+            "r": 139,
             "g": 166,
-            "b": 194
+            "b": 189
           },
           "hsl": {
-            "h": 208.97,
-            "s": 0.3222,
-            "l": 0.6471
+            "h": 207.6,
+            "s": 0.2747,
+            "l": 0.6431
           },
           "code": 4
         },
         "bright": {
-          "hex": "#9CB6CE",
+          "hex": "#A0B6C9",
           "rgb": {
-            "r": 156,
+            "r": 160,
             "g": 182,
-            "b": 206
+            "b": 201
           },
           "hsl": {
-            "h": 208.8,
-            "s": 0.3378,
-            "l": 0.7098
+            "h": 207.8,
+            "s": 0.2752,
+            "l": 0.7078
           },
           "code": 12
         }
@@ -1151,30 +2426,30 @@
         "name": "Magenta",
         "order": 5,
         "normal": {
-          "hex": "#B988AA",
+          "hex": "#B48AA8",
           "rgb": {
-            "r": 185,
-            "g": 136,
-            "b": 170
+            "r": 180,
+            "g": 138,
+            "b": 168
           },
           "hsl": {
-            "h": 318.37,
-            "s": 0.2593,
-            "l": 0.6294
+            "h": 317.14,
+            "s": 0.2188,
+            "l": 0.6235
           },
           "code": 5
         },
         "bright": {
-          "hex": "#CB9FBE",
+          "hex": "#C19EB7",
           "rgb": {
-            "r": 203,
-            "g": 159,
-            "b": 190
+            "r": 193,
+            "g": 158,
+            "b": 183
           },
           "hsl": {
-            "h": 317.73,
-            "s": 0.2973,
-            "l": 0.7098
+            "h": 317.14,
+            "s": 0.2201,
+            "l": 0.6882
           },
           "code": 13
         }
@@ -1183,30 +2458,30 @@
         "name": "Cyan",
         "order": 6,
         "normal": {
-          "hex": "#66B2BA",
+          "hex": "#5EB2BF",
           "rgb": {
-            "r": 102,
+            "r": 94,
             "g": 178,
-            "b": 186
+            "b": 191
           },
           "hsl": {
-            "h": 185.71,
-            "s": 0.3784,
-            "l": 0.5647
+            "h": 188.04,
+            "s": 0.4311,
+            "l": 0.5588
           },
           "code": 6
         },
         "bright": {
-          "hex": "#7BC1C8",
+          "hex": "#76BDC8",
           "rgb": {
-            "r": 123,
-            "g": 193,
+            "r": 118,
+            "g": 189,
             "b": 200
           },
           "hsl": {
-            "h": 185.45,
-            "s": 0.4118,
-            "l": 0.6333
+            "h": 188.05,
+            "s": 0.4271,
+            "l": 0.6235
           },
           "code": 14
         }

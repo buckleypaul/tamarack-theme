@@ -1,94 +1,185 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1168" height="336" viewBox="0 0 1168 336" role="img" aria-label="Tamarack — Clearing and Thicket side by side">
-  <title>Tamarack — Clearing and Thicket side by side</title>
-  <rect x="0" y="0" width="584" height="336" fill="#FAF7F1"/>
-  <text x="40" y="68" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#2E271E" font-weight="600">Clearing</text>
-  <text x="40" y="92" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#6E6454">light · base #faf7f1</text>
-  <rect x="40" y="112" width="48" height="48" rx="8" fill="#A35514"/>
-  <rect x="97" y="112" width="48" height="48" rx="8" fill="#8F6A14"/>
-  <rect x="154" y="112" width="48" height="48" rx="8" fill="#6E7524"/>
-  <rect x="211" y="112" width="48" height="48" rx="8" fill="#4E7C3A"/>
-  <rect x="268" y="112" width="48" height="48" rx="8" fill="#1F8168"/>
-  <rect x="325" y="112" width="48" height="48" rx="8" fill="#2A7B87"/>
-  <rect x="382" y="112" width="48" height="48" rx="8" fill="#4A6E8C"/>
-  <rect x="439" y="112" width="48" height="48" rx="8" fill="#A8422F"/>
-  <rect x="496" y="112" width="48" height="48" rx="8" fill="#9D4382"/>
-  <rect x="40" y="180" width="42" height="26" fill="#2E271E"/>
-  <rect x="82" y="180" width="42" height="26" fill="#554C3E"/>
-  <rect x="124" y="180" width="42" height="26" fill="#6E6454"/>
-  <rect x="166" y="180" width="42" height="26" fill="#877C69"/>
-  <rect x="208" y="180" width="42" height="26" fill="#A0947F"/>
-  <rect x="250" y="180" width="42" height="26" fill="#B8AC95"/>
-  <rect x="292" y="180" width="42" height="26" fill="#CFC4AE"/>
-  <rect x="334" y="180" width="42" height="26" fill="#E0D7C6"/>
-  <rect x="376" y="180" width="42" height="26" fill="#EDE7DB"/>
-  <rect x="418" y="180" width="42" height="26" fill="#FAF7F1"/>
-  <rect x="460" y="180" width="42" height="26" fill="#F3EFE6"/>
-  <rect x="502" y="180" width="42" height="26" fill="#EBE5D9"/>
-  <rect x="40" y="180" width="504" height="26" fill="none" stroke="#B8AC95" stroke-opacity="0.35"/>
-  <text x="40" y="244" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A0947F" textLength="432" lengthAdjust="spacing">// the larch that turns gold, then drops the lot</text>
-  <text x="40" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A8422F" textLength="45" lengthAdjust="spacing">const</text>
-  <text x="94" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#2E271E" textLength="36" lengthAdjust="spacing">gold</text>
-  <text x="139" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#2A7B87" textLength="9" lengthAdjust="spacing">=</text>
-  <text x="157" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#2E271E" textLength="45" lengthAdjust="spacing">larch</text>
-  <text x="202" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">.</text>
-  <text x="211" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A35514" textLength="36" lengthAdjust="spacing">turn</text>
-  <text x="247" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">(</text>
-  <text x="256" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#1F8168" textLength="54" lengthAdjust="spacing">Season</text>
-  <text x="310" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">.</text>
-  <text x="319" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#9D4382" textLength="54" lengthAdjust="spacing">Autumn</text>
-  <text x="373" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">,</text>
-  <text x="391" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#8F6A14" textLength="18" lengthAdjust="spacing">34</text>
-  <text x="409" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="18" lengthAdjust="spacing">);</text>
-  <text x="40" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">&lt;</text>
-  <text x="49" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E7524" textLength="54" lengthAdjust="spacing">needle</text>
-  <text x="112" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#4A6E8C" textLength="36" lengthAdjust="spacing">name</text>
-  <text x="148" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#2A7B87" textLength="9" lengthAdjust="spacing">=</text>
-  <text x="157" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#4E7C3A" textLength="90" lengthAdjust="spacing">"tamarack"</text>
-  <text x="256" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="18" lengthAdjust="spacing">/&gt;</text>
-  <rect x="584" y="0" width="584" height="336" fill="#131A16"/>
-  <text x="624" y="68" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#DFE5DC" font-weight="600">Thicket</text>
-  <text x="624" y="92" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#98A69D">dark · base #131a16</text>
-  <rect x="624" y="112" width="48" height="48" rx="8" fill="#E9954D"/>
-  <rect x="681" y="112" width="48" height="48" rx="8" fill="#DCAE57"/>
-  <rect x="738" y="112" width="48" height="48" rx="8" fill="#AFB766"/>
-  <rect x="795" y="112" width="48" height="48" rx="8" fill="#8FBE71"/>
-  <rect x="852" y="112" width="48" height="48" rx="8" fill="#5AB99B"/>
-  <rect x="909" y="112" width="48" height="48" rx="8" fill="#66B2BA"/>
-  <rect x="966" y="112" width="48" height="48" rx="8" fill="#88A6C2"/>
-  <rect x="1023" y="112" width="48" height="48" rx="8" fill="#D67464"/>
-  <rect x="1080" y="112" width="48" height="48" rx="8" fill="#B988AA"/>
-  <rect x="624" y="180" width="42" height="26" fill="#DFE5DC"/>
-  <rect x="666" y="180" width="42" height="26" fill="#B8C4BB"/>
-  <rect x="708" y="180" width="42" height="26" fill="#98A69D"/>
-  <rect x="750" y="180" width="42" height="26" fill="#7A8880"/>
-  <rect x="792" y="180" width="42" height="26" fill="#5F6E64"/>
-  <rect x="834" y="180" width="42" height="26" fill="#47564C"/>
-  <rect x="876" y="180" width="42" height="26" fill="#313F37"/>
-  <rect x="918" y="180" width="42" height="26" fill="#26322B"/>
-  <rect x="960" y="180" width="42" height="26" fill="#1C2620"/>
-  <rect x="1002" y="180" width="42" height="26" fill="#131A16"/>
-  <rect x="1044" y="180" width="42" height="26" fill="#0E1411"/>
-  <rect x="1086" y="180" width="42" height="26" fill="#0A0F0C"/>
-  <rect x="624" y="180" width="504" height="26" fill="none" stroke="#47564C" stroke-opacity="0.35"/>
-  <text x="624" y="244" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6E64" textLength="432" lengthAdjust="spacing">// the larch that turns gold, then drops the lot</text>
-  <text x="624" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#D67464" textLength="45" lengthAdjust="spacing">const</text>
-  <text x="678" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#DFE5DC" textLength="36" lengthAdjust="spacing">gold</text>
-  <text x="723" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#66B2BA" textLength="9" lengthAdjust="spacing">=</text>
-  <text x="741" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#DFE5DC" textLength="45" lengthAdjust="spacing">larch</text>
-  <text x="786" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">.</text>
-  <text x="795" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#E9954D" textLength="36" lengthAdjust="spacing">turn</text>
-  <text x="831" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">(</text>
-  <text x="840" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5AB99B" textLength="54" lengthAdjust="spacing">Season</text>
-  <text x="894" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">.</text>
-  <text x="903" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#B988AA" textLength="54" lengthAdjust="spacing">Autumn</text>
-  <text x="957" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">,</text>
-  <text x="975" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#DCAE57" textLength="18" lengthAdjust="spacing">34</text>
-  <text x="993" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="18" lengthAdjust="spacing">);</text>
-  <text x="624" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">&lt;</text>
-  <text x="633" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#AFB766" textLength="54" lengthAdjust="spacing">needle</text>
-  <text x="696" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#88A6C2" textLength="36" lengthAdjust="spacing">name</text>
-  <text x="732" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#66B2BA" textLength="9" lengthAdjust="spacing">=</text>
-  <text x="741" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#8FBE71" textLength="90" lengthAdjust="spacing">"tamarack"</text>
-  <text x="840" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="18" lengthAdjust="spacing">/&gt;</text>
-  <rect x="583" y="0" width="2" height="336" fill="#0A0F0C" fill-opacity="0.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1168" height="672" viewBox="0 0 1168 672" role="img" aria-label="Tamarack — Spring, Summer, Fall, Winter">
+  <title>Tamarack — Spring, Summer, Fall, Winter</title>
+  <rect x="0" y="0" width="584" height="336" fill="#F5F9F2"/>
+  <text x="40" y="68" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#252C20" font-weight="600">Spring</text>
+  <text x="40" y="92" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#5F6A58">light · base #f5f9f2</text>
+  <rect x="40" y="112" width="48" height="48" rx="8" fill="#9E5920"/>
+  <rect x="97" y="112" width="48" height="48" rx="8" fill="#8C6B1F"/>
+  <rect x="154" y="112" width="48" height="48" rx="8" fill="#6E761D"/>
+  <rect x="211" y="112" width="48" height="48" rx="8" fill="#4A7D33"/>
+  <rect x="268" y="112" width="48" height="48" rx="8" fill="#168267"/>
+  <rect x="325" y="112" width="48" height="48" rx="8" fill="#337B86"/>
+  <rect x="382" y="112" width="48" height="48" rx="8" fill="#4F6E87"/>
+  <rect x="439" y="112" width="48" height="48" rx="8" fill="#A14839"/>
+  <rect x="496" y="112" width="48" height="48" rx="8" fill="#964A7F"/>
+  <rect x="40" y="180" width="42" height="26" fill="#252C20"/>
+  <rect x="82" y="180" width="42" height="26" fill="#485241"/>
+  <rect x="124" y="180" width="42" height="26" fill="#5F6A58"/>
+  <rect x="166" y="180" width="42" height="26" fill="#76836D"/>
+  <rect x="208" y="180" width="42" height="26" fill="#8E9B84"/>
+  <rect x="250" y="180" width="42" height="26" fill="#A4B39A"/>
+  <rect x="292" y="180" width="42" height="26" fill="#BDCAB3"/>
+  <rect x="334" y="180" width="42" height="26" fill="#D1DCCA"/>
+  <rect x="376" y="180" width="42" height="26" fill="#E3EADE"/>
+  <rect x="418" y="180" width="42" height="26" fill="#F5F9F2"/>
+  <rect x="460" y="180" width="42" height="26" fill="#ECF1E8"/>
+  <rect x="502" y="180" width="42" height="26" fill="#E1E8DC"/>
+  <rect x="40" y="180" width="504" height="26" fill="none" stroke="#A4B39A" stroke-opacity="0.35"/>
+  <text x="40" y="244" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#8E9B84" textLength="432" lengthAdjust="spacing">// the larch that turns gold, then drops the lot</text>
+  <text x="40" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A14839" textLength="45" lengthAdjust="spacing">const</text>
+  <text x="94" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#252C20" textLength="36" lengthAdjust="spacing">gold</text>
+  <text x="139" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#337B86" textLength="9" lengthAdjust="spacing">=</text>
+  <text x="157" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#252C20" textLength="45" lengthAdjust="spacing">larch</text>
+  <text x="202" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6A58" textLength="9" lengthAdjust="spacing">.</text>
+  <text x="211" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#9E5920" textLength="36" lengthAdjust="spacing">turn</text>
+  <text x="247" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6A58" textLength="9" lengthAdjust="spacing">(</text>
+  <text x="256" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#168267" textLength="54" lengthAdjust="spacing">Season</text>
+  <text x="310" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6A58" textLength="9" lengthAdjust="spacing">.</text>
+  <text x="319" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#964A7F" textLength="54" lengthAdjust="spacing">Autumn</text>
+  <text x="373" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6A58" textLength="9" lengthAdjust="spacing">,</text>
+  <text x="391" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#8C6B1F" textLength="18" lengthAdjust="spacing">34</text>
+  <text x="409" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6A58" textLength="18" lengthAdjust="spacing">);</text>
+  <text x="40" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6A58" textLength="9" lengthAdjust="spacing">&lt;</text>
+  <text x="49" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E761D" textLength="54" lengthAdjust="spacing">needle</text>
+  <text x="112" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#4F6E87" textLength="36" lengthAdjust="spacing">name</text>
+  <text x="148" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#337B86" textLength="9" lengthAdjust="spacing">=</text>
+  <text x="157" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#4A7D33" textLength="90" lengthAdjust="spacing">"tamarack"</text>
+  <text x="256" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6A58" textLength="18" lengthAdjust="spacing">/&gt;</text>
+  <rect x="584" y="0" width="584" height="336" fill="#FAF7F1"/>
+  <text x="624" y="68" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#2E271E" font-weight="600">Summer</text>
+  <text x="624" y="92" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#6E6454">light · base #faf7f1</text>
+  <rect x="624" y="112" width="48" height="48" rx="8" fill="#A95109"/>
+  <rect x="681" y="112" width="48" height="48" rx="8" fill="#91690A"/>
+  <rect x="738" y="112" width="48" height="48" rx="8" fill="#6E751C"/>
+  <rect x="795" y="112" width="48" height="48" rx="8" fill="#527B41"/>
+  <rect x="852" y="112" width="48" height="48" rx="8" fill="#28806A"/>
+  <rect x="909" y="112" width="48" height="48" rx="8" fill="#337A84"/>
+  <rect x="966" y="112" width="48" height="48" rx="8" fill="#4F6E87"/>
+  <rect x="1023" y="112" width="48" height="48" rx="8" fill="#A04839"/>
+  <rect x="1080" y="112" width="48" height="48" rx="8" fill="#95497F"/>
+  <rect x="624" y="180" width="42" height="26" fill="#2E271E"/>
+  <rect x="666" y="180" width="42" height="26" fill="#554C3E"/>
+  <rect x="708" y="180" width="42" height="26" fill="#6E6454"/>
+  <rect x="750" y="180" width="42" height="26" fill="#877C69"/>
+  <rect x="792" y="180" width="42" height="26" fill="#A0947F"/>
+  <rect x="834" y="180" width="42" height="26" fill="#B8AC95"/>
+  <rect x="876" y="180" width="42" height="26" fill="#CFC4AE"/>
+  <rect x="918" y="180" width="42" height="26" fill="#E0D7C6"/>
+  <rect x="960" y="180" width="42" height="26" fill="#EDE7DB"/>
+  <rect x="1002" y="180" width="42" height="26" fill="#FAF7F1"/>
+  <rect x="1044" y="180" width="42" height="26" fill="#F3EFE6"/>
+  <rect x="1086" y="180" width="42" height="26" fill="#EBE5D9"/>
+  <rect x="624" y="180" width="504" height="26" fill="none" stroke="#B8AC95" stroke-opacity="0.35"/>
+  <text x="624" y="244" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A0947F" textLength="432" lengthAdjust="spacing">// the larch that turns gold, then drops the lot</text>
+  <text x="624" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A04839" textLength="45" lengthAdjust="spacing">const</text>
+  <text x="678" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#2E271E" textLength="36" lengthAdjust="spacing">gold</text>
+  <text x="723" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#337A84" textLength="9" lengthAdjust="spacing">=</text>
+  <text x="741" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#2E271E" textLength="45" lengthAdjust="spacing">larch</text>
+  <text x="786" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">.</text>
+  <text x="795" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A95109" textLength="36" lengthAdjust="spacing">turn</text>
+  <text x="831" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">(</text>
+  <text x="840" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#28806A" textLength="54" lengthAdjust="spacing">Season</text>
+  <text x="894" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">.</text>
+  <text x="903" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#95497F" textLength="54" lengthAdjust="spacing">Autumn</text>
+  <text x="957" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">,</text>
+  <text x="975" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#91690A" textLength="18" lengthAdjust="spacing">34</text>
+  <text x="993" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="18" lengthAdjust="spacing">);</text>
+  <text x="624" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="9" lengthAdjust="spacing">&lt;</text>
+  <text x="633" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E751C" textLength="54" lengthAdjust="spacing">needle</text>
+  <text x="696" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#4F6E87" textLength="36" lengthAdjust="spacing">name</text>
+  <text x="732" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#337A84" textLength="9" lengthAdjust="spacing">=</text>
+  <text x="741" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#527B41" textLength="90" lengthAdjust="spacing">"tamarack"</text>
+  <text x="840" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="18" lengthAdjust="spacing">/&gt;</text>
+  <rect x="0" y="336" width="584" height="336" fill="#1B1612"/>
+  <text x="40" y="404" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#E6E0DB" font-weight="600">Fall</text>
+  <text x="40" y="428" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#A79E97">dark · base #1b1612</text>
+  <rect x="40" y="448" width="48" height="48" rx="8" fill="#F48D38"/>
+  <rect x="97" y="448" width="48" height="48" rx="8" fill="#E2AB2D"/>
+  <rect x="154" y="448" width="48" height="48" rx="8" fill="#AFB573"/>
+  <rect x="211" y="448" width="48" height="48" rx="8" fill="#90BB7D"/>
+  <rect x="268" y="448" width="48" height="48" rx="8" fill="#68B5A2"/>
+  <rect x="325" y="448" width="48" height="48" rx="8" fill="#73AEB7"/>
+  <rect x="382" y="448" width="48" height="48" rx="8" fill="#89A5BC"/>
+  <rect x="439" y="448" width="48" height="48" rx="8" fill="#DE6D59"/>
+  <rect x="496" y="448" width="48" height="48" rx="8" fill="#B389A7"/>
+  <rect x="40" y="516" width="42" height="26" fill="#E6E0DB"/>
+  <rect x="82" y="516" width="42" height="26" fill="#C5BEB7"/>
+  <rect x="124" y="516" width="42" height="26" fill="#A79E97"/>
+  <rect x="166" y="516" width="42" height="26" fill="#898079"/>
+  <rect x="208" y="516" width="42" height="26" fill="#6F665E"/>
+  <rect x="250" y="516" width="42" height="26" fill="#574E46"/>
+  <rect x="292" y="516" width="42" height="26" fill="#403730"/>
+  <rect x="334" y="516" width="42" height="26" fill="#332C25"/>
+  <rect x="376" y="516" width="42" height="26" fill="#27211B"/>
+  <rect x="418" y="516" width="42" height="26" fill="#1B1612"/>
+  <rect x="460" y="516" width="42" height="26" fill="#14110E"/>
+  <rect x="502" y="516" width="42" height="26" fill="#0F0C0A"/>
+  <rect x="40" y="516" width="504" height="26" fill="none" stroke="#574E46" stroke-opacity="0.35"/>
+  <text x="40" y="580" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6F665E" textLength="432" lengthAdjust="spacing">// the larch that turns gold, then drops the lot</text>
+  <text x="40" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#DE6D59" textLength="45" lengthAdjust="spacing">const</text>
+  <text x="94" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#E6E0DB" textLength="36" lengthAdjust="spacing">gold</text>
+  <text x="139" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#73AEB7" textLength="9" lengthAdjust="spacing">=</text>
+  <text x="157" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#E6E0DB" textLength="45" lengthAdjust="spacing">larch</text>
+  <text x="202" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A79E97" textLength="9" lengthAdjust="spacing">.</text>
+  <text x="211" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#F48D38" textLength="36" lengthAdjust="spacing">turn</text>
+  <text x="247" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A79E97" textLength="9" lengthAdjust="spacing">(</text>
+  <text x="256" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#68B5A2" textLength="54" lengthAdjust="spacing">Season</text>
+  <text x="310" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A79E97" textLength="9" lengthAdjust="spacing">.</text>
+  <text x="319" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#B389A7" textLength="54" lengthAdjust="spacing">Autumn</text>
+  <text x="373" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A79E97" textLength="9" lengthAdjust="spacing">,</text>
+  <text x="391" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#E2AB2D" textLength="18" lengthAdjust="spacing">34</text>
+  <text x="409" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A79E97" textLength="18" lengthAdjust="spacing">);</text>
+  <text x="40" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A79E97" textLength="9" lengthAdjust="spacing">&lt;</text>
+  <text x="49" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#AFB573" textLength="54" lengthAdjust="spacing">needle</text>
+  <text x="112" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#89A5BC" textLength="36" lengthAdjust="spacing">name</text>
+  <text x="148" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#73AEB7" textLength="9" lengthAdjust="spacing">=</text>
+  <text x="157" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#90BB7D" textLength="90" lengthAdjust="spacing">"tamarack"</text>
+  <text x="256" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A79E97" textLength="18" lengthAdjust="spacing">/&gt;</text>
+  <rect x="584" y="336" width="584" height="336" fill="#131A16"/>
+  <text x="624" y="404" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#DFE5DC" font-weight="600">Winter</text>
+  <text x="624" y="428" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#98A69D">dark · base #131a16</text>
+  <rect x="624" y="448" width="48" height="48" rx="8" fill="#DF9960"/>
+  <rect x="681" y="448" width="48" height="48" rx="8" fill="#D3B163"/>
+  <rect x="738" y="448" width="48" height="48" rx="8" fill="#AFB853"/>
+  <rect x="795" y="448" width="48" height="48" rx="8" fill="#81C165"/>
+  <rect x="852" y="448" width="48" height="48" rx="8" fill="#44BB9D"/>
+  <rect x="909" y="448" width="48" height="48" rx="8" fill="#5EB2BF"/>
+  <rect x="966" y="448" width="48" height="48" rx="8" fill="#8BA6BD"/>
+  <rect x="1023" y="448" width="48" height="48" rx="8" fill="#CD796A"/>
+  <rect x="1080" y="448" width="48" height="48" rx="8" fill="#B48AA8"/>
+  <rect x="624" y="516" width="42" height="26" fill="#DFE5DC"/>
+  <rect x="666" y="516" width="42" height="26" fill="#B8C4BB"/>
+  <rect x="708" y="516" width="42" height="26" fill="#98A69D"/>
+  <rect x="750" y="516" width="42" height="26" fill="#7A8880"/>
+  <rect x="792" y="516" width="42" height="26" fill="#5F6E64"/>
+  <rect x="834" y="516" width="42" height="26" fill="#47564C"/>
+  <rect x="876" y="516" width="42" height="26" fill="#313F37"/>
+  <rect x="918" y="516" width="42" height="26" fill="#26322B"/>
+  <rect x="960" y="516" width="42" height="26" fill="#1C2620"/>
+  <rect x="1002" y="516" width="42" height="26" fill="#131A16"/>
+  <rect x="1044" y="516" width="42" height="26" fill="#0E1411"/>
+  <rect x="1086" y="516" width="42" height="26" fill="#0A0F0C"/>
+  <rect x="624" y="516" width="504" height="26" fill="none" stroke="#47564C" stroke-opacity="0.35"/>
+  <text x="624" y="580" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6E64" textLength="432" lengthAdjust="spacing">// the larch that turns gold, then drops the lot</text>
+  <text x="624" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#CD796A" textLength="45" lengthAdjust="spacing">const</text>
+  <text x="678" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#DFE5DC" textLength="36" lengthAdjust="spacing">gold</text>
+  <text x="723" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5EB2BF" textLength="9" lengthAdjust="spacing">=</text>
+  <text x="741" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#DFE5DC" textLength="45" lengthAdjust="spacing">larch</text>
+  <text x="786" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">.</text>
+  <text x="795" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#DF9960" textLength="36" lengthAdjust="spacing">turn</text>
+  <text x="831" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">(</text>
+  <text x="840" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#44BB9D" textLength="54" lengthAdjust="spacing">Season</text>
+  <text x="894" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">.</text>
+  <text x="903" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#B48AA8" textLength="54" lengthAdjust="spacing">Autumn</text>
+  <text x="957" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">,</text>
+  <text x="975" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#D3B163" textLength="18" lengthAdjust="spacing">34</text>
+  <text x="993" y="604" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="18" lengthAdjust="spacing">);</text>
+  <text x="624" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="9" lengthAdjust="spacing">&lt;</text>
+  <text x="633" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#AFB853" textLength="54" lengthAdjust="spacing">needle</text>
+  <text x="696" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#8BA6BD" textLength="36" lengthAdjust="spacing">name</text>
+  <text x="732" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5EB2BF" textLength="9" lengthAdjust="spacing">=</text>
+  <text x="741" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#81C165" textLength="90" lengthAdjust="spacing">"tamarack"</text>
+  <text x="840" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#98A69D" textLength="18" lengthAdjust="spacing">/&gt;</text>
+  <rect x="583" y="0" width="2" height="672" fill="#0F0C0A" fill-opacity="0.5"/>
+  <rect x="0" y="335" width="1168" height="2" fill="#0F0C0A" fill-opacity="0.5"/>
 </svg>

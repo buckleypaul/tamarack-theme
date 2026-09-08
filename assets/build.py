@@ -15,9 +15,13 @@ ROOT = os.path.dirname(HERE)
 with open(os.path.join(ROOT, 'palette.json')) as fh:
     PALETTE = json.load(fh)
 
-ACCENTS = [n for n, c in PALETTE['clearing']['colors'].items() if c['accent']]
-NEUTRALS = [n for n, c in PALETTE['clearing']['colors'].items() if not c['accent']]
 FLAVORS = sorted(PALETTE.items(), key=lambda kv: kv[1]['order'])
+
+# Token names and their accent/neutral split are shared by every flavor, so the
+# first one by order stands in for all of them.
+_REF = FLAVORS[0][1]['colors']
+ACCENTS = [n for n, c in _REF.items() if c['accent']]
+NEUTRALS = [n for n, c in _REF.items() if not c['accent']]
 
 SANS = ('ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", '
         'Helvetica, Arial, sans-serif')
@@ -267,45 +271,56 @@ HERO_CODE = [
 ]
 
 
-def panel(flavor, x0):
+def panel(flavor, x0, y0):
     f = PALETTE[flavor]
     base, text, sub = hexv(flavor, 'base'), hexv(flavor, 'text'), hexv(flavor, 'subtext0')
     px = x0 + HERO_PAD
 
-    body = [f'  <rect x="{x0}" y="0" width="{PANEL_W}" height="{HERO_H}" '
+    body = [f'  <rect x="{x0}" y="{y0}" width="{PANEL_W}" height="{HERO_H}" '
             f'fill="{base}"/>']
-    body.append(text_el(px, 68, f['name'], text, size=27, weight='600'))
-    body.append(text_el(px, 92, f'{"dark" if f["dark"] else "light"} '
-                                f'· base {base.lower()}', sub, size=13))
+    body.append(text_el(px, y0 + 68, f['name'], text, size=27, weight='600'))
+    body.append(text_el(px, y0 + 92, f'{"dark" if f["dark"] else "light"} '
+                                    f'· base {base.lower()}', sub, size=13))
 
     for i, token in enumerate(ACCENTS):
-        body.append(f'  <rect x="{px + i * (SW + SW_GAP)}" y="112" '
+        body.append(f'  <rect x="{px + i * (SW + SW_GAP)}" y="{y0 + 112}" '
                     f'width="{SW}" height="{SW}" rx="8" '
                     f'fill="{hexv(flavor, token)}"/>')
 
     for i, token in enumerate(NEUTRALS):
         a = px + (i * HERO_CONTENT) // len(NEUTRALS)
         b = px + ((i + 1) * HERO_CONTENT) // len(NEUTRALS)
-        body.append(f'  <rect x="{a}" y="180" width="{b - a}" height="{RAMP_H}" '
-                    f'fill="{hexv(flavor, token)}"/>')
-    body.append(f'  <rect x="{px}" y="180" width="{HERO_CONTENT}" '
+        body.append(f'  <rect x="{a}" y="{y0 + 180}" width="{b - a}" '
+                    f'height="{RAMP_H}" fill="{hexv(flavor, token)}"/>')
+    body.append(f'  <rect x="{px}" y="{y0 + 180}" width="{HERO_CONTENT}" '
                 f'height="{RAMP_H}" fill="none" '
                 f'stroke="{hexv(flavor, "overlay0")}" stroke-opacity="0.35"/>')
 
     for i, line in enumerate(HERO_CODE):
-        body += code_line(px, 244 + i * LINE, line, flavor)
+        body += code_line(px, y0 + 244 + i * LINE, line, flavor)
     return body
 
 
 def hero():
-    width = 2 * PANEL_W
+    """Four seasons on a 2x2 grid, in palette order."""
+    cols = 2
+    rows = (len(FLAVORS) + cols - 1) // cols
+    width, height = cols * PANEL_W, rows * HERO_H
+
+    # Rules are drawn in the darkest flavor's crust so they read on every panel.
+    rule = hexv(max(FLAVORS, key=lambda kv: kv[1]['dark'])[0], 'crust')
+
     body = []
     for i, (key, _) in enumerate(FLAVORS):
-        body += panel(key, i * PANEL_W)
-    body.append(f'  <rect x="{PANEL_W - 1}" y="0" width="2" height="{HERO_H}" '
-                f'fill="{hexv("thicket", "crust")}" fill-opacity="0.5"/>')
-    return svg(width, HERO_H, body,
-               'Tamarack — Clearing and Thicket side by side')
+        body += panel(key, (i % cols) * PANEL_W, (i // cols) * HERO_H)
+    for c in range(1, cols):
+        body.append(f'  <rect x="{c * PANEL_W - 1}" y="0" width="2" '
+                    f'height="{height}" fill="{rule}" fill-opacity="0.5"/>')
+    for r in range(1, rows):
+        body.append(f'  <rect x="0" y="{r * HERO_H - 1}" width="{width}" '
+                    f'height="2" fill="{rule}" fill-opacity="0.5"/>')
+    return svg(width, height, body,
+               'Tamarack — ' + ', '.join(f['name'] for _, f in FLAVORS))
 
 
 written = [write('tamarack-hero.svg', hero())]

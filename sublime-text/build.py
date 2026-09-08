@@ -9,12 +9,14 @@ NEUTRALS = ['text','subtext1','subtext0','overlay2','overlay1','overlay0',
 
 # ---------- globals ----------
 # base=background · mantle=gutter · surface2=guides · overlay0=disabled
-# ember=caret/active/primary · creek=selection/find · clay=error · crust=shadow
+# hero=caret/active/primary · creek=selection/find · clay=error · crust=shadow
+# `hero` is a per-season alias emitted into `variables`: the accent the season
+# leads with (fern for Spring, ember for Summer and Fall, juniper for Winter).
 GLOBALS = {
     'background':                 'var(base)',
     'foreground':                 'var(text)',
-    'caret':                      'var(ember)',
-    'block_caret':                'var(ember)',
+    'caret':                      'var(hero)',
+    'block_caret':                'var(hero)',
     'invisibles':                 'color(var(overlay0) alpha(0.4))',
     'line_highlight':             'color(var(surface2) alpha(0.4))',
     'selection':                  'color(var(creek) alpha(0.25))',
@@ -25,16 +27,16 @@ GLOBALS = {
     'misspelling':                'var(clay)',
     'gutter':                     'var(mantle)',
     'gutter_foreground':          'var(overlay0)',
-    'gutter_foreground_highlight':'var(ember)',
+    'gutter_foreground_highlight':'var(hero)',
     'find_highlight':             'var(creek)',
     'find_highlight_foreground':  'var(base)',
     'highlight':                  'color(var(creek) alpha(0.5))',
     'guide':                      'color(var(surface2) alpha(0.6))',
-    'active_guide':               'var(ember)',
+    'active_guide':               'var(hero)',
     'stack_guide':                'color(var(surface2) alpha(0.9))',
     'shadow':                     'var(crust)',
     'shadow_width':               '8',
-    'accent':                     'var(ember)',
+    'accent':                     'var(hero)',
     'fold_marker':                'var(amber)',
     'brackets_options':           'underline',
     'brackets_foreground':        'var(overlay2)',
@@ -169,7 +171,7 @@ POPUP_CSS = """html {{
     color: {text};
 }}
 a {{
-    color: {ember};
+    color: {hero};
 }}
 code, .code {{
     background-color: {surface1};
@@ -189,6 +191,8 @@ code, .code {{
 
 def build(key, flavor):
     hexes = {n: flavor['colors'][n]['hex'] for n in ACCENTS + NEUTRALS}
+    # chrome roles follow the season's lead accent rather than a fixed token
+    variables = dict(hexes, hero=f"var({flavor['hero']})")
 
     rules = []
     for name, scope, fg, bg, style in RULES:
@@ -204,10 +208,10 @@ def build(key, flavor):
     return {
         'name': f"Tamarack {flavor['name']}",
         'author': 'Tamarack',
-        'variables': hexes,
+        'variables': variables,
         'globals': GLOBALS,
         'rules': rules,
-        'popup_css': POPUP_CSS.format(**hexes),
+        'popup_css': POPUP_CSS.format(hero=hexes[flavor['hero']], **hexes),
     }
 
 

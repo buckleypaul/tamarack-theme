@@ -30,7 +30,7 @@ jobs:
           if ! git diff --exit-code; then
             echo
             echo "::error::Generated files are out of date."
-            echo "Edit the flavor definitions in gen.py, then run:"
+            echo "Edit the season definitions in gen.py, then run:"
             echo "  python3 gen.py && python3 assets/build.py \\"
             echo "    && python3 sublime-text/build.py && python3 ghostty/build.py"
             echo "Do not edit generated files by hand."

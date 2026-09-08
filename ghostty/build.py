@@ -7,8 +7,12 @@ PALETTE = os.path.join(HERE, os.pardir, 'palette.json')
 SLOTS = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
 
 # ---------- chrome ----------
-# base=background · text=foreground · ember=cursor · creek=selection
+# base=background · text=foreground · @hero=cursor · creek=selection
 # surface2=split divider · crust=unfocused split fill
+#
+# '@hero' is not a palette token: it stands for whichever accent the season leads
+# with — fern for Spring, ember for Summer and Fall, juniper for Winter — so the
+# cursor always carries the season's own color rather than a fixed one.
 #
 # Ghostty has no alpha on selection-background, so the creek wash the other ports
 # apply is pre-composited over base here — at 0.30 rather than their 0.25, because
@@ -17,7 +21,7 @@ SLOTS = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
 CHROME = [
     ('background',           'base'),
     ('foreground',           'text'),
-    ('cursor-color',         'ember'),
+    ('cursor-color',         '@hero'),
     ('cursor-text',          'base'),
     ('selection-background', ('creek', 'base', 0.30)),
     ('selection-foreground', 'text'),
@@ -44,6 +48,7 @@ def resolve(value, hexes):
 
 def build(flavor):
     hexes = {n: c['hex'] for n, c in flavor['colors'].items()}
+    hexes['@hero'] = hexes[flavor['hero']]
     ansi = flavor['ansiColors']
     mode = 'dark' if flavor.get('dark') else 'light'
 
