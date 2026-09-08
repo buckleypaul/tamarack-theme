@@ -62,14 +62,25 @@ def ink(flavor, swatch):
     return text if ratio(swatch, text) >= ratio(swatch, base) else base
 
 
+def role(flavor, token):
+    """How this flavor treats an accent: it leads with one, pushes a family of
+    them forward, and pulls the rest back."""
+    f = PALETTE[flavor]
+    if token == f['hero']:
+        return 'hero'
+    return 'family' if token in f['family'] else 'muted'
+
+
 def esc(s):
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
 def text_el(x, y, s, fill, size=13, family=SANS, weight=None,
-            anchor=None, opacity=None, length=None):
+            anchor=None, opacity=None, length=None, spacing=None):
     attrs = [f'x="{x}"', f'y="{y}"', f'font-family=\'{family}\'',
              f'font-size="{size}"', f'fill="{fill}"']
+    if spacing:
+        attrs.append(f'letter-spacing="{spacing}"')
     if length:
         attrs.append(f'textLength="{length}" lengthAdjust="spacing"')
     if weight:
@@ -122,19 +133,37 @@ A_COLS, A_W, A_GAP, A_H = 3, 288, 16, 84
 N_COLS, N_W, N_GAP, N_H = 6, 141, 10, 72
 
 
-def card(x, y, w, h, flavor, token, show_ratio):
+def card(x, y, w, h, flavor, token, show_ratio, rank=None):
+    """One swatch. A pulled-back accent (`rank` "muted") is inset so its band of
+    color sits lower than the ones the flavor pushes forward; the hero wears a
+    ring and a tag. Neutrals pass no rank and keep the plain card."""
     fill = hexv(flavor, token)
     label = ink(flavor, fill)
-    parts = [f'  <rect x="{x}" y="{y}" width="{w}" height="{h}" rx="8" '
-             f'fill="{fill}" stroke="{hexv(flavor, "overlay0")}" '
-             f'stroke-opacity="0.35"/>']
-    parts.append(text_el(x + 14, y + (30 if show_ratio else 28), token, label,
+    inset = 9 if rank == 'muted' else 0
+    ry, rh = y + inset, h - 2 * inset
+
+    parts = []
+    if rank == 'hero':
+        parts.append(f'  <rect x="{x - 5}" y="{ry - 5}" width="{w + 10}" '
+                     f'height="{rh + 10}" rx="13" fill="none" '
+                     f'stroke="{hexv(flavor, "text")}" stroke-width="2"/>')
+    parts.append(f'  <rect x="{x}" y="{ry}" width="{w}" height="{rh}" rx="8" '
+                 f'fill="{fill}" stroke="{hexv(flavor, "overlay0")}" '
+                 f'stroke-opacity="0.35"/>')
+    parts.append(text_el(x + 14, ry + (30 if show_ratio else 28), token, label,
                          size=14, family=MONO, weight='600'))
-    parts.append(text_el(x + 14, y + (52 if show_ratio else 48), fill.lower(),
+    parts.append(text_el(x + 14, ry + (52 if show_ratio else 48), fill.lower(),
                          label, size=12.5, family=MONO, opacity='0.75'))
+    if rank == 'hero':
+        parts.append(text_el(x + w - 14, ry + 30, 'HERO', label, size=10.5,
+                             weight='700', anchor='end', spacing='1.4'))
+    elif rank == 'family':
+        parts.append(text_el(x + w - 14, ry + 30, 'FAMILY', label, size=10.5,
+                             weight='600', anchor='end', opacity='0.7',
+                             spacing='1.4'))
     if show_ratio:
         r = PALETTE[flavor]['colors'][token]['contrastOnBase']
-        parts.append(text_el(x + w - 14, y + 52, f'{r}:1', label, size=12.5,
+        parts.append(text_el(x + w - 14, ry + 52, f'{r}:1', label, size=12.5,
                              family=MONO, anchor='end', opacity='0.75'))
     return parts
 
@@ -151,16 +180,20 @@ def sheet(flavor):
 
     body = [f'  <rect width="{SHEET_W}" height="{height}" fill="{base}"/>']
     body.append(text_el(PAD, 62, f'Tamarack {f["name"]}', text, size=26, weight='600'))
-    body.append(text_el(PAD, 86, f'{"dark" if f["dark"] else "light"} flavor '
+    body.append(text_el(PAD, 86, f'{"dark" if f["dark"] else "light"} season '
                                  f'· base {base.lower()} · contrast measured on base',
                         sub, size=13))
 
     body.append(text_el(PAD, a_top - 14, 'ACCENTS', sub, size=11,
                         weight='600', opacity='0.85'))
+    body.append(text_el(PAD + CONTENT, a_top - 14,
+                        f'hero {f["hero"]} · family {", ".join(f["family"])} '
+                        f'pushed forward · others pulled back',
+                        sub, size=11, anchor='end', opacity='0.85'))
     for i, token in enumerate(ACCENTS):
         x = PAD + (i % A_COLS) * (A_W + A_GAP)
         y = a_top + (i // A_COLS) * (A_H + A_GAP)
-        body += card(x, y, A_W, A_H, flavor, token, True)
+        body += card(x, y, A_W, A_H, flavor, token, True, role(flavor, token))
 
     body.append(text_el(PAD, n_top - 14, 'NEUTRALS', sub, size=11,
                         weight='600', opacity='0.85'))
@@ -280,12 +313,22 @@ def panel(flavor, x0, y0):
             f'fill="{base}"/>']
     body.append(text_el(px, y0 + 68, f['name'], text, size=27, weight='600'))
     body.append(text_el(px, y0 + 92, f'{"dark" if f["dark"] else "light"} '
-                                    f'· base {base.lower()}', sub, size=13))
+                                    f'· base {base.lower()} '
+                                    f'· leads with {f["hero"]}', sub, size=13))
 
     for i, token in enumerate(ACCENTS):
-        body.append(f'  <rect x="{px + i * (SW + SW_GAP)}" y="{y0 + 112}" '
-                    f'width="{SW}" height="{SW}" rx="8" '
+        x = px + i * (SW + SW_GAP)
+        rank = role(flavor, token)
+        # Pulled-back accents sit as a shorter band; the hero wears a ring.
+        h = 36 if rank == 'muted' else SW
+        y = y0 + 112 + (SW - h) // 2
+        body.append(f'  <rect x="{x}" y="{y}" width="{SW}" height="{h}" '
+                    f'rx="{6 if rank == "muted" else 8}" '
                     f'fill="{hexv(flavor, token)}"/>')
+        if rank == 'hero':
+            body.append(f'  <rect x="{x - 4}" y="{y - 4}" width="{SW + 8}" '
+                        f'height="{h + 8}" rx="12" fill="none" '
+                        f'stroke="{text}" stroke-width="2"/>')
 
     for i, token in enumerate(NEUTRALS):
         a = px + (i * HERO_CONTENT) // len(NEUTRALS)

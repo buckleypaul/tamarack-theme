@@ -2,44 +2,50 @@
   <title>Tamarack Winter palette swatches</title>
   <rect width="968" height="664" fill="#131A16"/>
   <text x="36" y="62" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="26" fill="#DFE5DC" font-weight="600">Tamarack Winter</text>
-  <text x="36" y="86" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#98A69D">dark flavor · base #131a16 · contrast measured on base</text>
+  <text x="36" y="86" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#98A69D">dark season · base #131a16 · contrast measured on base</text>
   <text x="36" y="124" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="11" fill="#98A69D" font-weight="600" fill-opacity="0.85">ACCENTS</text>
-  <rect x="36" y="138" width="288" height="84" rx="8" fill="#DF9960" stroke="#47564C" stroke-opacity="0.35"/>
-  <text x="50" y="168" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">ember</text>
-  <text x="50" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#df9960</text>
-  <text x="310" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">7.47:1</text>
-  <rect x="340" y="138" width="288" height="84" rx="8" fill="#D3B163" stroke="#47564C" stroke-opacity="0.35"/>
-  <text x="354" y="168" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">amber</text>
-  <text x="354" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#d3b163</text>
-  <text x="614" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">8.63:1</text>
+  <text x="932" y="124" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="11" fill="#98A69D" text-anchor="end" fill-opacity="0.85">hero juniper · family juniper, fern, moss, creek pushed forward · others pulled back</text>
+  <rect x="36" y="147" width="288" height="66" rx="8" fill="#DF9960" stroke="#47564C" stroke-opacity="0.35"/>
+  <text x="50" y="177" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">ember</text>
+  <text x="50" y="199" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#df9960</text>
+  <text x="310" y="199" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">7.47:1</text>
+  <rect x="340" y="147" width="288" height="66" rx="8" fill="#D3B163" stroke="#47564C" stroke-opacity="0.35"/>
+  <text x="354" y="177" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">amber</text>
+  <text x="354" y="199" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#d3b163</text>
+  <text x="614" y="199" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">8.63:1</text>
   <rect x="644" y="138" width="288" height="84" rx="8" fill="#AFB853" stroke="#47564C" stroke-opacity="0.35"/>
   <text x="658" y="168" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">moss</text>
   <text x="658" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#afb853</text>
+  <text x="918" y="168" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="10.5" fill="#131A16" letter-spacing="1.4" font-weight="600" text-anchor="end" fill-opacity="0.7">FAMILY</text>
   <text x="918" y="190" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">8.26:1</text>
   <rect x="36" y="238" width="288" height="84" rx="8" fill="#81C165" stroke="#47564C" stroke-opacity="0.35"/>
   <text x="50" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">fern</text>
   <text x="50" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#81c165</text>
+  <text x="310" y="268" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="10.5" fill="#131A16" letter-spacing="1.4" font-weight="600" text-anchor="end" fill-opacity="0.7">FAMILY</text>
   <text x="310" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">8.21:1</text>
+  <rect x="335" y="233" width="298" height="94" rx="13" fill="none" stroke="#DFE5DC" stroke-width="2"/>
   <rect x="340" y="238" width="288" height="84" rx="8" fill="#44BB9D" stroke="#47564C" stroke-opacity="0.35"/>
   <text x="354" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">juniper</text>
   <text x="354" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#44bb9d</text>
+  <text x="614" y="268" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="10.5" fill="#131A16" letter-spacing="1.4" font-weight="700" text-anchor="end">HERO</text>
   <text x="614" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">7.45:1</text>
   <rect x="644" y="238" width="288" height="84" rx="8" fill="#5EB2BF" stroke="#47564C" stroke-opacity="0.35"/>
   <text x="658" y="268" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">creek</text>
   <text x="658" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#5eb2bf</text>
+  <text x="918" y="268" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="10.5" fill="#131A16" letter-spacing="1.4" font-weight="600" text-anchor="end" fill-opacity="0.7">FAMILY</text>
   <text x="918" y="290" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">7.24:1</text>
-  <rect x="36" y="338" width="288" height="84" rx="8" fill="#8BA6BD" stroke="#47564C" stroke-opacity="0.35"/>
-  <text x="50" y="368" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">slate</text>
-  <text x="50" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#8ba6bd</text>
-  <text x="310" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">6.98:1</text>
-  <rect x="340" y="338" width="288" height="84" rx="8" fill="#CD796A" stroke="#47564C" stroke-opacity="0.35"/>
-  <text x="354" y="368" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">clay</text>
-  <text x="354" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#cd796a</text>
-  <text x="614" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">5.51:1</text>
-  <rect x="644" y="338" width="288" height="84" rx="8" fill="#B48AA8" stroke="#47564C" stroke-opacity="0.35"/>
-  <text x="658" y="368" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">chokeberry</text>
-  <text x="658" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#b48aa8</text>
-  <text x="918" y="390" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">6.02:1</text>
+  <rect x="36" y="347" width="288" height="66" rx="8" fill="#8BA6BD" stroke="#47564C" stroke-opacity="0.35"/>
+  <text x="50" y="377" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">slate</text>
+  <text x="50" y="399" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#8ba6bd</text>
+  <text x="310" y="399" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">6.98:1</text>
+  <rect x="340" y="347" width="288" height="66" rx="8" fill="#CD796A" stroke="#47564C" stroke-opacity="0.35"/>
+  <text x="354" y="377" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">clay</text>
+  <text x="354" y="399" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#cd796a</text>
+  <text x="614" y="399" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">5.51:1</text>
+  <rect x="644" y="347" width="288" height="66" rx="8" fill="#B48AA8" stroke="#47564C" stroke-opacity="0.35"/>
+  <text x="658" y="377" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">chokeberry</text>
+  <text x="658" y="399" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" fill-opacity="0.75">#b48aa8</text>
+  <text x="918" y="399" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#131A16" text-anchor="end" fill-opacity="0.75">6.02:1</text>
   <text x="36" y="460" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="11" fill="#98A69D" font-weight="600" fill-opacity="0.85">NEUTRALS</text>
   <rect x="36" y="474" width="141" height="72" rx="8" fill="#DFE5DC" stroke="#47564C" stroke-opacity="0.35"/>
   <text x="50" y="502" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="14" fill="#131A16" font-weight="600">text</text>

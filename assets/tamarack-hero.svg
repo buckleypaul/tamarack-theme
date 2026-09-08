@@ -2,16 +2,17 @@
   <title>Tamarack — Spring, Summer, Fall, Winter</title>
   <rect x="0" y="0" width="584" height="336" fill="#F5F9F2"/>
   <text x="40" y="68" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#252C20" font-weight="600">Spring</text>
-  <text x="40" y="92" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#5F6A58">light · base #f5f9f2</text>
-  <rect x="40" y="112" width="48" height="48" rx="8" fill="#9E5920"/>
-  <rect x="97" y="112" width="48" height="48" rx="8" fill="#8C6B1F"/>
+  <text x="40" y="92" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#5F6A58">light · base #f5f9f2 · leads with fern</text>
+  <rect x="40" y="118" width="48" height="36" rx="6" fill="#9E5920"/>
+  <rect x="97" y="118" width="48" height="36" rx="6" fill="#8C6B1F"/>
   <rect x="154" y="112" width="48" height="48" rx="8" fill="#6E761D"/>
   <rect x="211" y="112" width="48" height="48" rx="8" fill="#4A7D33"/>
+  <rect x="207" y="108" width="56" height="56" rx="12" fill="none" stroke="#252C20" stroke-width="2"/>
   <rect x="268" y="112" width="48" height="48" rx="8" fill="#168267"/>
-  <rect x="325" y="112" width="48" height="48" rx="8" fill="#337B86"/>
-  <rect x="382" y="112" width="48" height="48" rx="8" fill="#4F6E87"/>
-  <rect x="439" y="112" width="48" height="48" rx="8" fill="#A14839"/>
-  <rect x="496" y="112" width="48" height="48" rx="8" fill="#964A7F"/>
+  <rect x="325" y="118" width="48" height="36" rx="6" fill="#337B86"/>
+  <rect x="382" y="118" width="48" height="36" rx="6" fill="#4F6E87"/>
+  <rect x="439" y="118" width="48" height="36" rx="6" fill="#A14839"/>
+  <rect x="496" y="118" width="48" height="36" rx="6" fill="#964A7F"/>
   <rect x="40" y="180" width="42" height="26" fill="#252C20"/>
   <rect x="82" y="180" width="42" height="26" fill="#485241"/>
   <rect x="124" y="180" width="42" height="26" fill="#5F6A58"/>
@@ -47,16 +48,17 @@
   <text x="256" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#5F6A58" textLength="18" lengthAdjust="spacing">/&gt;</text>
   <rect x="584" y="0" width="584" height="336" fill="#FAF7F1"/>
   <text x="624" y="68" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#2E271E" font-weight="600">Summer</text>
-  <text x="624" y="92" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#6E6454">light · base #faf7f1</text>
+  <text x="624" y="92" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#6E6454">light · base #faf7f1 · leads with ember</text>
   <rect x="624" y="112" width="48" height="48" rx="8" fill="#A95109"/>
+  <rect x="620" y="108" width="56" height="56" rx="12" fill="none" stroke="#2E271E" stroke-width="2"/>
   <rect x="681" y="112" width="48" height="48" rx="8" fill="#91690A"/>
   <rect x="738" y="112" width="48" height="48" rx="8" fill="#6E751C"/>
-  <rect x="795" y="112" width="48" height="48" rx="8" fill="#527B41"/>
-  <rect x="852" y="112" width="48" height="48" rx="8" fill="#28806A"/>
-  <rect x="909" y="112" width="48" height="48" rx="8" fill="#337A84"/>
-  <rect x="966" y="112" width="48" height="48" rx="8" fill="#4F6E87"/>
-  <rect x="1023" y="112" width="48" height="48" rx="8" fill="#A04839"/>
-  <rect x="1080" y="112" width="48" height="48" rx="8" fill="#95497F"/>
+  <rect x="795" y="118" width="48" height="36" rx="6" fill="#527B41"/>
+  <rect x="852" y="118" width="48" height="36" rx="6" fill="#28806A"/>
+  <rect x="909" y="118" width="48" height="36" rx="6" fill="#337A84"/>
+  <rect x="966" y="118" width="48" height="36" rx="6" fill="#4F6E87"/>
+  <rect x="1023" y="118" width="48" height="36" rx="6" fill="#A04839"/>
+  <rect x="1080" y="118" width="48" height="36" rx="6" fill="#95497F"/>
   <rect x="624" y="180" width="42" height="26" fill="#2E271E"/>
   <rect x="666" y="180" width="42" height="26" fill="#554C3E"/>
   <rect x="708" y="180" width="42" height="26" fill="#6E6454"/>
@@ -92,16 +94,17 @@
   <text x="840" y="292" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#6E6454" textLength="18" lengthAdjust="spacing">/&gt;</text>
   <rect x="0" y="336" width="584" height="336" fill="#1B1612"/>
   <text x="40" y="404" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#E6E0DB" font-weight="600">Fall</text>
-  <text x="40" y="428" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#A79E97">dark · base #1b1612</text>
+  <text x="40" y="428" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#A79E97">dark · base #1b1612 · leads with ember</text>
   <rect x="40" y="448" width="48" height="48" rx="8" fill="#F48D38"/>
+  <rect x="36" y="444" width="56" height="56" rx="12" fill="none" stroke="#E6E0DB" stroke-width="2"/>
   <rect x="97" y="448" width="48" height="48" rx="8" fill="#E2AB2D"/>
-  <rect x="154" y="448" width="48" height="48" rx="8" fill="#AFB573"/>
-  <rect x="211" y="448" width="48" height="48" rx="8" fill="#90BB7D"/>
-  <rect x="268" y="448" width="48" height="48" rx="8" fill="#68B5A2"/>
-  <rect x="325" y="448" width="48" height="48" rx="8" fill="#73AEB7"/>
-  <rect x="382" y="448" width="48" height="48" rx="8" fill="#89A5BC"/>
+  <rect x="154" y="454" width="48" height="36" rx="6" fill="#AFB573"/>
+  <rect x="211" y="454" width="48" height="36" rx="6" fill="#90BB7D"/>
+  <rect x="268" y="454" width="48" height="36" rx="6" fill="#68B5A2"/>
+  <rect x="325" y="454" width="48" height="36" rx="6" fill="#73AEB7"/>
+  <rect x="382" y="454" width="48" height="36" rx="6" fill="#89A5BC"/>
   <rect x="439" y="448" width="48" height="48" rx="8" fill="#DE6D59"/>
-  <rect x="496" y="448" width="48" height="48" rx="8" fill="#B389A7"/>
+  <rect x="496" y="454" width="48" height="36" rx="6" fill="#B389A7"/>
   <rect x="40" y="516" width="42" height="26" fill="#E6E0DB"/>
   <rect x="82" y="516" width="42" height="26" fill="#C5BEB7"/>
   <rect x="124" y="516" width="42" height="26" fill="#A79E97"/>
@@ -137,16 +140,17 @@
   <text x="256" y="628" font-family='ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' font-size="15" fill="#A79E97" textLength="18" lengthAdjust="spacing">/&gt;</text>
   <rect x="584" y="336" width="584" height="336" fill="#131A16"/>
   <text x="624" y="404" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="27" fill="#DFE5DC" font-weight="600">Winter</text>
-  <text x="624" y="428" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#98A69D">dark · base #131a16</text>
-  <rect x="624" y="448" width="48" height="48" rx="8" fill="#DF9960"/>
-  <rect x="681" y="448" width="48" height="48" rx="8" fill="#D3B163"/>
+  <text x="624" y="428" font-family='ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif' font-size="13" fill="#98A69D">dark · base #131a16 · leads with juniper</text>
+  <rect x="624" y="454" width="48" height="36" rx="6" fill="#DF9960"/>
+  <rect x="681" y="454" width="48" height="36" rx="6" fill="#D3B163"/>
   <rect x="738" y="448" width="48" height="48" rx="8" fill="#AFB853"/>
   <rect x="795" y="448" width="48" height="48" rx="8" fill="#81C165"/>
   <rect x="852" y="448" width="48" height="48" rx="8" fill="#44BB9D"/>
+  <rect x="848" y="444" width="56" height="56" rx="12" fill="none" stroke="#DFE5DC" stroke-width="2"/>
   <rect x="909" y="448" width="48" height="48" rx="8" fill="#5EB2BF"/>
-  <rect x="966" y="448" width="48" height="48" rx="8" fill="#8BA6BD"/>
-  <rect x="1023" y="448" width="48" height="48" rx="8" fill="#CD796A"/>
-  <rect x="1080" y="448" width="48" height="48" rx="8" fill="#B48AA8"/>
+  <rect x="966" y="454" width="48" height="36" rx="6" fill="#8BA6BD"/>
+  <rect x="1023" y="454" width="48" height="36" rx="6" fill="#CD796A"/>
+  <rect x="1080" y="454" width="48" height="36" rx="6" fill="#B48AA8"/>
   <rect x="624" y="516" width="42" height="26" fill="#DFE5DC"/>
   <rect x="666" y="516" width="42" height="26" fill="#B8C4BB"/>
   <rect x="708" y="516" width="42" height="26" fill="#98A69D"/>
