@@ -9,6 +9,8 @@ hero color, which is the palette in one word.
 No purple, no pink, no electric blue. Nine accents named for things that actually
 have these colors, over a twelve-step role-named neutral ramp.
 
+![Clearing and Thicket side by side](assets/tamarack-hero.svg)
+
 ## Flavors
 
 | Flavor | Mode | Base | Text | Character |
@@ -96,6 +98,28 @@ against token names, so they hold for either flavor.
 | `surface2` | Borders, dividers, inactive tab |
 | `overlay0` | Disabled text, placeholder |
 
+## Previews
+
+Every preview below is an SVG generated from `palette.json` by
+`assets/build.py` — nothing here is a screenshot, so the images cannot drift
+from the palette they document.
+
+### Swatches
+
+Each accent carries its measured contrast against its own flavor's `base`.
+
+![Clearing swatches](assets/tamarack-clearing-palette.svg)
+
+![Thicket swatches](assets/tamarack-thicket-palette.svg)
+
+### Syntax
+
+The same file under both flavors, colored strictly by the role table above.
+
+![Clearing syntax preview](assets/tamarack-clearing-syntax.svg)
+
+![Thicket syntax preview](assets/tamarack-thicket-syntax.svg)
+
 ## ANSI 16
 
 All sixteen slots map to real palette tokens. `chokeberry` exists because ANSI
@@ -110,7 +134,7 @@ demands a magenta and the original eight accents had no honest answer for it.
 | blue | 4 | `#4A6E8C` | `#88A6C2` | slate |
 | magenta | 5 | `#9D4382` | `#B988AA` | chokeberry |
 | cyan | 6 | `#2A7B87` | `#66B2BA` | creek |
-| white | 7 | `#B8AC95` | `#B8C4BB` | overlay0 (Clearing) / subtext1 (Thicket) |
+| white | 7 | `#A0947F` | `#B8C4BB` | overlay1 (Clearing) / subtext1 (Thicket) |
 | bright black | 8 | `#6E6454` | `#313F37` | — |
 | bright red | 9 | `#BC5340` | `#E08A7B` | — |
 | bright green | 10 | `#5C8E45` | `#A0CB84` | — |
@@ -156,9 +180,11 @@ Force a flavor with `<html data-theme="thicket">` or `data-theme="clearing"`.
 
 ### JSON
 
-`palette.json` is the source of truth. Every color carries `hex`, `rgb`, `hsl`,
-`accent`, and `contrastOnBase`; each flavor also carries a full `ansiColors` block
-with normal and bright variants and their codes.
+The flavor definitions at the top of `gen.py` are the source of truth.
+`palette.json` is generated from them, and is what every port reads — so it is
+the stable contract for anything outside this repo. Every color carries `hex`,
+`rgb`, `hsl`, `accent`, and `contrastOnBase`; each flavor also carries a full
+`ansiColors` block with normal and bright variants and their codes.
 
 ```json
 {
@@ -182,7 +208,11 @@ Edit the flavor definitions at the top of `gen.py`, then:
 
 ```bash
 python3 gen.py
+python3 assets/build.py
 ```
+
+`gen.py` runs first because `assets/build.py` and both ports read the
+`palette.json` it writes.
 
 No dependencies beyond the Python standard library.
 

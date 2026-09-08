@@ -1,7 +1,6 @@
 import json, os, colorsys
 
-OUT = '/Users/paulbuckley/Projects/tamarack-theme'
-os.makedirs(OUT, exist_ok=True)
+OUT = os.path.dirname(os.path.abspath(__file__))
 
 ACCENTS  = ['ember','amber','moss','fern','juniper','creek','slate','clay','chokeberry']
 NEUTRALS = ['text','subtext1','subtext0','overlay2','overlay1','overlay0',
@@ -23,7 +22,7 @@ FLAVORS = {
       'black':('#554C3E','#6E6454'), 'red':('#A8422F','#BC5340'),
       'green':('#4E7C3A','#5C8E45'), 'yellow':('#8F6A14','#A07920'),
       'blue':('#4A6E8C','#587FA0'),  'magenta':('#9D4382','#B25395'),
-      'cyan':('#2A7B87','#358995'),  'white':('#B8AC95','#877C69'),
+      'cyan':('#2A7B87','#358995'),  'white':('#A0947F','#877C69'),
     },
   },
   'thicket': {
@@ -215,6 +214,8 @@ w('')
 w('No purple, no pink, no electric blue. Nine accents named for things that actually')
 w('have these colors, over a twelve-step role-named neutral ramp.')
 w('')
+w('![Clearing and Thicket side by side](assets/tamarack-hero.svg)')
+w('')
 w('## Flavors')
 w('')
 w('| Flavor | Mode | Base | Text | Character |')
@@ -265,6 +266,28 @@ w('| --- | --- |')
 for t, r in UI_ROLES:
     w(f'| `{t}` | {r} |')
 w('')
+w('## Previews')
+w('')
+w('Every preview below is an SVG generated from `palette.json` by')
+w('`assets/build.py` — nothing here is a screenshot, so the images cannot drift')
+w('from the palette they document.')
+w('')
+w('### Swatches')
+w('')
+w('Each accent carries its measured contrast against its own flavor\'s `base`.')
+w('')
+w('![Clearing swatches](assets/tamarack-clearing-palette.svg)')
+w('')
+w('![Thicket swatches](assets/tamarack-thicket-palette.svg)')
+w('')
+w('### Syntax')
+w('')
+w('The same file under both flavors, colored strictly by the role table above.')
+w('')
+w('![Clearing syntax preview](assets/tamarack-clearing-syntax.svg)')
+w('')
+w('![Thicket syntax preview](assets/tamarack-thicket-syntax.svg)')
+w('')
 w('## ANSI 16')
 w('')
 w('All sixteen slots map to real palette tokens. `chokeberry` exists because ANSI')
@@ -273,7 +296,7 @@ w('')
 w('| Slot | Code | Clearing | Thicket | From |')
 w('| --- | --- | --- | --- | --- |')
 ANSI_FROM = {'black':'subtext1 (Clearing) / surface1 (Thicket)', 'red':'clay', 'green':'fern', 'yellow':'amber',
-             'blue':'slate', 'magenta':'chokeberry', 'cyan':'creek', 'white':'overlay0 (Clearing) / subtext1 (Thicket)'}
+             'blue':'slate', 'magenta':'chokeberry', 'cyan':'creek', 'white':'overlay1 (Clearing) / subtext1 (Thicket)'}
 for i, name in enumerate(ANSI):
     w(f"| {name} | {i} | `{cl['ansiColors'][name]['normal']['hex']}` "
       f"| `{th['ansiColors'][name]['normal']['hex']}` | {ANSI_FROM[name]} |")
@@ -317,9 +340,11 @@ w('```')
 w('')
 w('### JSON')
 w('')
-w('`palette.json` is the source of truth. Every color carries `hex`, `rgb`, `hsl`,')
-w('`accent`, and `contrastOnBase`; each flavor also carries a full `ansiColors` block')
-w('with normal and bright variants and their codes.')
+w('The flavor definitions at the top of `gen.py` are the source of truth.')
+w('`palette.json` is generated from them, and is what every port reads — so it is')
+w('the stable contract for anything outside this repo. Every color carries `hex`,')
+w('`rgb`, `hsl`, `accent`, and `contrastOnBase`; each flavor also carries a full')
+w('`ansiColors` block with normal and bright variants and their codes.')
 w('')
 w('```json')
 w('{')
@@ -343,7 +368,11 @@ w('Edit the flavor definitions at the top of `gen.py`, then:')
 w('')
 w('```bash')
 w('python3 gen.py')
+w('python3 assets/build.py')
 w('```')
+w('')
+w('`gen.py` runs first because `assets/build.py` and both ports read the')
+w('`palette.json` it writes.')
 w('')
 w('No dependencies beyond the Python standard library.')
 w('')

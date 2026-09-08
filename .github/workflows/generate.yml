@@ -1,0 +1,38 @@
+name: generate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  drift:
+    name: generated files are up to date
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # gen.py writes palette.json, which the previews and both port builds
+      # read, so it runs first.
+      - name: Regenerate
+        run: |
+          python3 gen.py
+          python3 assets/build.py
+          python3 sublime-text/build.py
+          python3 ghostty/build.py
+
+      - name: Check for drift
+        run: |
+          if ! git diff --exit-code; then
+            echo
+            echo "::error::Generated files are out of date."
+            echo "Edit the flavor definitions in gen.py, then run:"
+            echo "  python3 gen.py && python3 assets/build.py \\"
+            echo "    && python3 sublime-text/build.py && python3 ghostty/build.py"
+            echo "Do not edit generated files by hand."
+            exit 1
+          fi
