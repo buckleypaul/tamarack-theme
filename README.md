@@ -287,9 +287,10 @@ python3 gen.py
 python3 assets/build.py
 python3 sublime-text/build.py
 python3 ghostty/build.py
+python3 slack/build.py
 ```
 
-`gen.py` runs first because the previews and both port builds read the
+`gen.py` runs first because the previews and every port build read the
 `palette.json` it writes.
 
 No dependencies beyond the Python standard library.
